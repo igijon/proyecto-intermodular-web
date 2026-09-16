@@ -1,148 +1,83 @@
-<div class="home-section-title">
-Tu espacio de trabajo
+---
+title: "Proyecto Intermodular"
+---
+
+<div class="home-hero">
+<div class="home-eyebrow">PROYECTO INTERMODULAR · DAW</div>
+<h1>Aprender.<br><span>Construir.</span></h1>
+<p>Un espacio para investigar, diseñar, desarrollar y presentar soluciones reales trabajando como un equipo profesional.</p>
 </div>
+
+<div class="home-manifesto">
+<div class="home-manifesto-main">No vienes a aprender un proyecto.<br><strong>Vienes a aprender a construirlo.</strong></div>
+<div class="home-manifesto-meta">Investigación · Diseño · Desarrollo · IA · Comunicación</div>
+</div>
+
+<div class="home-section-title">Tu espacio de trabajo</div>
 
 <div class="home-cards-small">
 
 <div class="home-card">
-
 <div class="home-card-icon">📚</div>
-
 <div class="home-card-content">
-
 <div class="home-card-label">APRENDIZAJE</div>
-
 <div class="home-card-title">Unidades</div>
-
-<div class="home-card-description">
-Los conocimientos y habilidades que iremos adquiriendo durante el proyecto.
+<div class="home-card-description">Los conocimientos y habilidades que iremos adquiriendo durante el proyecto.</div>
+<a href="unidades/index.html" class="home-card-link">Ver unidades →</a>
 </div>
-
-<a href="unidades/index.html" class="home-card-link">
-Ver unidades →
-</a>
-
 </div>
-
-</div>
-
 
 <div class="home-card">
-
 <div class="home-card-icon">🧪</div>
-
 <div class="home-card-content">
-
 <div class="home-card-label">EXPERIMENTA</div>
-
 <div class="home-card-title">Laboratorios</div>
-
-<div class="home-card-description">
-Experiencias prácticas para desarrollar las habilidades necesarias.
+<div class="home-card-description">Experiencias prácticas para desarrollar las habilidades necesarias.</div>
+<a href="laboratorios/index.html" class="home-card-link">Ver laboratorios →</a>
 </div>
-
-<a href="laboratorios/index.html" class="home-card-link">
-Ver laboratorios →
-</a>
-
 </div>
 
 </div>
 
-</div>
+<div class="home-section-title home-section-projects">Desafíos</div>
 
-
-<div class="home-section-title home-section-projects">
-Desafíos
-</div>
-
+<div class="home-section-intro"><strong>Aprender haciendo.</strong> Cada desafío plantea un problema que tendrás que investigar, resolver y convertir en una solución.</div>
 
 <div class="home-project-grid">
 
 <div class="home-project-card">
-
 <div class="home-project-icon">🚀</div>
-
-<div class="home-project-label">
-DESAFÍO 01
-</div>
-
-<div class="home-project-title">
-LifeOS
-</div>
-
-<div class="home-project-description">
-Tu sistema personal de productividad.
-Construye una aplicación web para organizar tu vida y experimentar con el desarrollo de una solución real.
-</div>
-
+<div class="home-project-label">DESAFÍO 01</div>
+<div class="home-project-title">LifeOS</div>
+<div class="home-project-description">Tu sistema personal de productividad. Construye una aplicación web para organizar tu vida y experimentar con el desarrollo de una solución real.</div>
 <div class="home-project-meta">
 <span>4 semanas</span>
 <span>Trabajo en equipo</span>
 </div>
-
-<a href="desafios/desafio-01/index.html" class="home-project-link">
-Comenzar desafío →
-</a>
-
+<a href="desafios/desafio-01/index.html" class="home-project-link">Comenzar desafío →</a>
 </div>
 
-
-<div class="home-project-card">
-
-<div class="home-project-icon">🚀</div>
-
-<div class="home-project-label">
-DESAFÍO 02
-</div>
-
-<div class="home-project-title">
-Próximamente
-</div>
-
-<div class="home-project-description">
-El segundo desafío del curso pondrá en práctica nuevas habilidades y nos acercará un paso más al proyecto final.
-</div>
-
+<div class="home-project-card home-project-card-muted">
+<div class="home-project-icon">✦</div>
+<div class="home-project-label">DESAFÍO 02</div>
+<div class="home-project-title">Próximamente</div>
+<div class="home-project-description">El segundo desafío del curso pondrá en práctica nuevas habilidades y nos acercará un paso más al proyecto final.</div>
 <div class="home-project-meta">
 <span>Próximamente</span>
 </div>
-
-<a href="desafios/desafio-02/index.html" class="home-project-link">
-Ver desafío →
-</a>
-
+<a href="desafios/desafio-02/index.html" class="home-project-link">Ver desafío →</a>
 </div>
 
 </div>
 
-
-<div class="home-section-title home-section-final">
-Proyecto final
-</div>
-
+<div class="home-section-title home-section-final">Proyecto final</div>
 
 <div class="home-final-project">
-
-<div class="home-final-project-icon">
-🏆
-</div>
-
+<div class="home-final-project-icon">🏆</div>
 <div class="home-final-project-content">
-
-<div class="home-card-label">
-EL GRAN RETO
-</div>
-
-<div class="home-final-project-title">
-Proyecto Intermodular Final
-</div>
-
-<div class="home-final-project-description">
-Integra todo lo aprendido para investigar, diseñar, desarrollar
-y presentar una solución completa a un problema real.
-</div>
-
+<div class="home-card-label">EL GRAN RETO</div>
+<div class="home-final-project-title">Proyecto Intermodular Final</div>
+<div class="home-final-project-description">Integra todo lo aprendido para investigar, diseñar, desarrollar y presentar una solución completa a un problema real.</div>
 <div class="home-project-tags">
 <span>Investigación</span>
 <span>Diseño</span>
@@ -150,66 +85,32 @@ y presentar una solución completa a un problema real.
 <span>IA</span>
 <span>Presentación</span>
 </div>
-
-<a href="proyecto-final/index.html" class="home-project-button">
-Comenzar proyecto →
-</a>
-
+<a href="proyecto-final/index.html" class="home-project-button">Comenzar proyecto →</a>
+</div>
 </div>
 
-</div>
-
-
-<div class="home-section-title">
-Recursos
-</div>
-
+<div class="home-section-title">Recursos</div>
 
 <div class="home-cards-small">
 
 <div class="home-card">
-
 <div class="home-card-icon">🤖</div>
-
 <div class="home-card-content">
-
 <div class="home-card-label">TRANSVERSAL</div>
-
 <div class="home-card-title">IA</div>
-
-<div class="home-card-description">
-La inteligencia artificial como herramienta para aprender, investigar y desarrollar.
+<div class="home-card-description">La inteligencia artificial como herramienta para aprender, investigar y desarrollar.</div>
+<a href="ia/index.html" class="home-card-link">Explorar IA →</a>
 </div>
-
-<a href="ia/index.html" class="home-card-link">
-Explorar IA →
-</a>
-
 </div>
-
-</div>
-
 
 <div class="home-card">
-
 <div class="home-card-icon">📦</div>
-
 <div class="home-card-content">
-
 <div class="home-card-label">APOYO</div>
-
 <div class="home-card-title">Recursos</div>
-
-<div class="home-card-description">
-Plantillas, herramientas y recursos de apoyo para el proyecto.
+<div class="home-card-description">Plantillas, herramientas y recursos de apoyo para el proyecto.</div>
+<a href="recursos/index.html" class="home-card-link">Ver recursos →</a>
 </div>
-
-<a href="recursos/index.html" class="home-card-link">
-Ver recursos →
-</a>
-
-</div>
-
 </div>
 
 </div>
