@@ -1,0 +1,32 @@
+{
+  "index.qmd": {
+    "index.html": "1d38020d"
+  },
+  "about.qmd": {
+    "about.html": "c61d2260"
+  },
+  "unidades/index.qmd": {
+    "index.html": "db2eae40"
+  },
+  "desafios/desafio-01/index.qmd": {
+    "index.html": "ce9d7d4a"
+  },
+  "desafios/index.qmd": {
+    "index.html": "59c18d3c"
+  },
+  "desafios/desafio-02/index.qmd": {
+    "index.html": "851e9936"
+  },
+  "ia/index.qmd": {
+    "index.html": "80accfb9"
+  },
+  "proyecto-final/index.qmd": {
+    "index.html": "916f4504"
+  },
+  "recursos/index.qmd": {
+    "index.html": "b6151e2d"
+  },
+  "laboratorios/index.qmd": {
+    "index.html": "a7b49721"
+  }
+}

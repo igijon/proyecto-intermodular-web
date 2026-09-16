@@ -1,0 +1,46 @@
+project:
+  type: website
+
+website:
+  title: "Proyecto Intermodular"
+
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - href: index.qmd
+        text: "🏠 Inicio"
+
+      - text: "📚 Unidades"
+        contents:
+          - href: unidades/index.qmd
+            text: "Unidades"
+
+      - text: "🚀 Desafíos"
+        contents:
+          - href: desafios/index.qmd
+            text: "Desafíos"
+          - href: desafios/desafio-01/index.qmd
+            text: "Desafío 1 · LifeOS"
+          - href: desafios/desafio-02/index.qmd
+            text: "Desafío 2"
+
+      - href: proyecto-final/index.qmd
+        text: "🏆 Proyecto Intermodular Final"
+
+      - href: laboratorios/index.qmd
+        text: "🧪 Laboratorios"
+
+      - href: ia/index.qmd
+        text: "🤖 IA"
+
+      - href: recursos/index.qmd
+        text: "📦 Recursos"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+

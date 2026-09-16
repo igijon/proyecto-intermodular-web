@@ -1,0 +1,696 @@
+/* =========================================================
+   VARIABLES
+   ========================================================= */
+
+:root {
+  --text-main: #37352f;
+  --text-secondary: #787774;
+  --text-light: #9b9a97;
+
+  --border: #e7e7e5;
+
+  --background: #ffffff;
+  --background-soft: #fafafa;
+  --background-icon: #f3f3f1;
+}
+
+
+/* =========================================================
+   HERO
+   ========================================================= */
+
+.home-hero {
+  max-width: 760px;
+  margin: 3rem 0 4rem 0;
+}
+
+.home-eyebrow {
+  font-size: 0.72rem;
+  font-weight: 700;
+
+  letter-spacing: 0.1em;
+
+  color: var(--text-light);
+
+  margin-bottom: 1.25rem;
+}
+
+.home-hero h1 {
+  margin: 0;
+
+  font-size: clamp(3rem, 7vw, 5.2rem);
+
+  line-height: 0.98;
+
+  letter-spacing: -0.055em;
+
+  color: var(--text-main);
+}
+
+.home-hero h1 span {
+  color: #787774;
+}
+
+.home-hero p {
+  max-width: 650px;
+
+  margin-top: 1.75rem;
+
+  font-size: 1.15rem;
+
+  line-height: 1.7;
+
+  color: var(--text-secondary);
+}
+
+
+/* =========================================================
+   TÍTULO DE SECCIÓN
+   ========================================================= */
+
+.home-section-title {
+  margin-bottom: 1rem;
+
+  font-size: 0.75rem;
+
+  font-weight: 700;
+
+  letter-spacing: 0.08em;
+
+  text-transform: uppercase;
+
+  color: var(--text-light);
+}
+
+
+/* =========================================================
+   GRID
+   ========================================================= */
+
+.home-cards {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 1.25rem;
+
+  margin: 0;
+}
+
+
+/* =========================================================
+   TARJETAS
+   ========================================================= */
+
+.home-card {
+  display: flex;
+
+  gap: 1.25rem;
+
+  padding: 1.5rem;
+
+  border: 1px solid var(--border);
+
+  border-radius: 16px;
+
+  background: var(--background);
+
+  box-sizing: border-box;
+
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    border-color 0.18s ease;
+}
+
+.home-card:hover {
+  transform: translateY(-3px);
+
+  border-color: #d4d4d1;
+
+  box-shadow:
+    0 4px 12px rgba(0, 0, 0, 0.03),
+    0 12px 30px rgba(0, 0, 0, 0.05);
+}
+
+
+/* =========================================================
+   ICONOS
+   ========================================================= */
+
+.home-card-icon {
+  flex: 0 0 auto;
+
+  width: 48px;
+  height: 48px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 12px;
+
+  background: var(--background-icon);
+
+  font-size: 1.55rem;
+}
+
+
+/* =========================================================
+   CONTENIDO
+   ========================================================= */
+
+.home-card-content {
+  min-width: 0;
+}
+
+
+/* =========================================================
+   ETIQUETAS
+   ========================================================= */
+
+.home-card-label {
+  margin-bottom: 0.35rem;
+
+  font-size: 0.67rem;
+
+  font-weight: 700;
+
+  letter-spacing: 0.08em;
+
+  color: var(--text-light);
+}
+
+
+/* =========================================================
+   TÍTULOS
+   ========================================================= */
+
+.home-card-title {
+  margin-bottom: 0.5rem;
+
+  font-size: 1.25rem;
+
+  font-weight: 650;
+
+  color: var(--text-main);
+}
+
+
+/* =========================================================
+   DESCRIPCIÓN
+   ========================================================= */
+
+.home-card-description {
+  margin-bottom: 1rem;
+
+  font-size: 0.92rem;
+
+  line-height: 1.6;
+
+  color: var(--text-secondary);
+}
+
+
+/* =========================================================
+   ENLACES
+   ========================================================= */
+
+.home-card-link {
+  display: inline-block;
+
+  font-size: 0.85rem;
+
+  font-weight: 600;
+
+  color: var(--text-main);
+
+  text-decoration: none;
+}
+
+.home-card-link:hover {
+  text-decoration: underline;
+}
+
+
+/* =========================================================
+   PROYECTO FINAL
+   ========================================================= */
+
+.home-final-project {
+  display: flex;
+
+  gap: 1.5rem;
+
+  margin: 1.25rem 0;
+
+  padding: 2rem;
+
+  border: 1px solid var(--border);
+
+  border-radius: 18px;
+
+  background: var(--background-soft);
+
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+.home-final-project:hover {
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 8px 30px rgba(0, 0, 0, 0.05);
+}
+
+
+/* =========================================================
+   ICONO PROYECTO
+   ========================================================= */
+
+.home-final-project-icon {
+  flex: 0 0 auto;
+
+  width: 64px;
+  height: 64px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 16px;
+
+  background: #eeeeec;
+
+  font-size: 2rem;
+}
+
+
+/* =========================================================
+   CONTENIDO PROYECTO
+   ========================================================= */
+
+.home-final-project-content {
+  max-width: 750px;
+}
+
+.home-final-project-title {
+  margin-bottom: 0.6rem;
+
+  font-size: 1.6rem;
+
+  font-weight: 700;
+
+  letter-spacing: -0.02em;
+
+  color: var(--text-main);
+}
+
+.home-final-project-description {
+  max-width: 700px;
+
+  margin-bottom: 1.25rem;
+
+  font-size: 0.95rem;
+
+  line-height: 1.65;
+
+  color: var(--text-secondary);
+}
+
+
+/* =========================================================
+   ETIQUETAS DEL PROYECTO
+   ========================================================= */
+
+.home-project-tags {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 0.5rem;
+
+  margin-bottom: 1.25rem;
+}
+
+.home-project-tags span {
+  padding: 0.3rem 0.65rem;
+
+  border-radius: 999px;
+
+  background: #eeeeec;
+
+  font-size: 0.72rem;
+
+  font-weight: 600;
+
+  color: var(--text-secondary);
+}
+
+
+/* =========================================================
+   BOTÓN
+   ========================================================= */
+
+.home-project-button {
+  display: inline-block;
+
+  padding: 0.6rem 0.9rem;
+
+  border-radius: 8px;
+
+  background: #37352f;
+
+  color: white;
+
+  font-size: 0.85rem;
+
+  font-weight: 600;
+
+  text-decoration: none;
+
+  transition:
+    transform 0.15s ease,
+    opacity 0.15s ease;
+}
+
+.home-project-button:hover {
+  opacity: 0.85;
+
+  transform: translateY(-1px);
+}
+
+
+/* =========================================================
+   SEGUNDA FILA
+   ========================================================= */
+
+.home-cards-secondary {
+  margin-top: 1.25rem;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 800px) {
+
+  .home-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .home-hero {
+    margin-top: 2rem;
+  }
+
+  .home-hero h1 {
+    font-size: 3.2rem;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+
+  .home-card {
+    flex-direction: column;
+  }
+
+  .home-final-project {
+    flex-direction: column;
+  }
+
+}
+
+/* =========================================================
+   TARJETAS PEQUEÑAS
+   ========================================================= */
+
+.home-cards-small {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+
+/* =========================================================
+   SECCIONES
+   ========================================================= */
+
+.home-section-projects {
+  margin-top: 3rem;
+}
+
+.home-section-final {
+  margin-top: 3rem;
+}
+
+
+/* =========================================================
+   GRID DE DESAFÍOS
+   ========================================================= */
+
+.home-project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+
+/* =========================================================
+   TARJETA DE DESAFÍO
+   ========================================================= */
+
+.home-project-card {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 340px;
+
+  padding: 2rem;
+
+  border: 1px solid var(--border);
+  border-radius: 18px;
+
+  background: var(--background);
+
+  box-sizing: border-box;
+
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    border-color 0.18s ease;
+}
+
+.home-project-card:hover {
+  transform: translateY(-4px);
+
+  border-color: #d4d4d1;
+
+  box-shadow:
+    0 6px 18px rgba(0, 0, 0, 0.04),
+    0 16px 35px rgba(0, 0, 0, 0.05);
+}
+
+
+/* =========================================================
+   ICONO DESAFÍO
+   ========================================================= */
+
+.home-project-icon {
+  width: 56px;
+  height: 56px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 1.5rem;
+
+  border-radius: 14px;
+
+  background: var(--background-icon);
+
+  font-size: 1.8rem;
+}
+
+
+/* =========================================================
+   ETIQUETA DESAFÍO
+   ========================================================= */
+
+.home-project-label {
+  margin-bottom: 0.4rem;
+
+  font-size: 0.7rem;
+  font-weight: 700;
+
+  letter-spacing: 0.1em;
+
+  color: var(--text-light);
+}
+
+
+/* =========================================================
+   TÍTULO DESAFÍO
+   ========================================================= */
+
+.home-project-title {
+  margin-bottom: 0.7rem;
+
+  font-size: 1.7rem;
+  font-weight: 700;
+
+  letter-spacing: -0.025em;
+
+  color: var(--text-main);
+}
+
+
+/* =========================================================
+   DESCRIPCIÓN
+   ========================================================= */
+
+.home-project-description {
+  margin-bottom: 1.25rem;
+
+  font-size: 0.95rem;
+
+  line-height: 1.65;
+
+  color: var(--text-secondary);
+}
+
+
+/* =========================================================
+   METADATOS
+   ========================================================= */
+
+.home-project-meta {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 0.5rem;
+
+  margin-top: auto;
+
+  margin-bottom: 1.25rem;
+}
+
+.home-project-meta span {
+  padding: 0.35rem 0.65rem;
+
+  border-radius: 999px;
+
+  background: var(--background-icon);
+
+  font-size: 0.72rem;
+
+  font-weight: 600;
+
+  color: var(--text-secondary);
+}
+
+
+/* =========================================================
+   ENLACE DESAFÍO
+   ========================================================= */
+
+.home-project-link {
+  font-size: 0.85rem;
+
+  font-weight: 600;
+
+  color: var(--text-main);
+
+  text-decoration: none;
+}
+
+.home-project-link:hover {
+  text-decoration: underline;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 800px) {
+
+  .home-cards-small,
+  .home-project-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+/* =========================================================
+   SIDEBAR — ELEMENTO ACTIVO
+   ========================================================= */
+
+/* Elemento de navegación activo */
+.sidebar .sidebar-item .sidebar-link.active {
+  color: #37352f !important;
+  background-color: #f1f1ef !important;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+/* Evitamos el azul de los enlaces activos */
+.sidebar .sidebar-item .sidebar-link.active,
+.sidebar .sidebar-item .sidebar-link.active:hover {
+  color: #37352f !important;
+}
+
+/* Hover de los elementos normales */
+.sidebar .sidebar-item .sidebar-link:hover {
+  color: #37352f !important;
+  background-color: #f5f5f3;
+  border-radius: 6px;
+}
+
+/* =========================================================
+   ENLACES DEL SIDEBAR
+   ========================================================= */
+
+.sidebar .sidebar-item .sidebar-link {
+  color: #5f5e5b;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease;
+}
+
+/* =========================================================
+   SIDEBAR — ESTÉTICA GENERAL
+   ========================================================= */
+
+/* Espacio entre elementos */
+.sidebar .sidebar-item {
+  margin: 2px 0;
+}
+
+/* Enlaces */
+.sidebar .sidebar-link {
+  padding: 0.45rem 0.65rem;
+  border-radius: 6px;
+}
+
+/* Elementos de primer nivel */
+.sidebar > .sidebar-menu-container > .sidebar-item > .sidebar-link {
+  font-weight: 500;
+}
+
+/* Títulos de las secciones */
+.sidebar .sidebar-item-text {
+  color: #5f5e5b;
+}
+
+.sidebar .sidebar-item .sidebar-link.active {
+  border-left: 3px solid #37352f;
+  padding-left: calc(0.65rem - 3px);
+}
