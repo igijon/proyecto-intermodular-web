@@ -1,0 +1,39 @@
+---
+title: "UD1. Gestión de proyectos y metodologías ágiles"
+---
+
+# 📚 Proyecto software
+
+## Proyecto vs Producto
+
+En el ámbito del software, la diferencia entre ambos radica en la mentalidad, la duración y la forma en que se mide el éxito. Mientras que un **proyecto** es un esfuerzo temporal con un principio y un fin claros, un **producto** es una entidad viva que evoluciona continuamente para generar valor a largo plazo mientras siga siendo útil para sus usuarios.
+
+Un **proyecto sirve para construir o actualizar un producto.**
+
+![Tabla proyecto vs Producto](images/ud1_1.png)
+
+## Objetivos de un proyecto web
+
+Son los **resultados medibles** que se esperan conseguir con la creación de la web. Responden a *¿para qué?* del proyecto.
+
+*Ejemplo:* Lograr **1.000 ventas mensuales** en la nueva tienda online durante el primer trimestre o reducir un **30% las llamadas de soporte** mediante una sección de ayuda autogestionable.
+
+## Alcance
+
+Es el límite del proyecto; define detalladamente todo el trabajo que se va a realizar y, de igual importancia, lo que queda fuera.
+
+Ejemplo: El alcance incluye el diseño de 5 páginas, pasarela de pago con tarjeta y un blog. No incluye el desarrollo de una app móvil ni la redacción de los textos legales.
+
+## Entregables
+
+Son los productos tangibles o verificables que se van generando y presentando a lo largo del proyecto.
+
+Ejemplo: El documento de arquitectura de información, los wireframes (bocetos de diseño), el código fuente en GitHub, y finalmente, la web publicada y funcional.
+
+## Restricciones
+
+Son las limitaciones o factores restrictivos que condicionan la ejecución del proyecto. Tradicionalmente forman el "triángulo de hierro" aunque ahora ante la IA hay quien piensa que ya no se cumple del mismo modo.
+
+![Triángulo de hierro](images/ud1_2.png)
+
+Ejemplo: El presupuesto máximo es de 15.000 €, la fecha de lanzamiento límite es el 15 de diciembre, o la obligación de usar obligatoriamente la tecnología Angular / React.

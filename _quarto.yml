@@ -11,11 +11,18 @@ website:
       - href: index.qmd
         text: "🏠 Inicio"
 
-      - text: "📚 Unidades"
+      - section: "📚 Unidades"
+        href: unidades/index.qmd
         contents:
-          - href: unidades/index.qmd
-            text: "Unidades"
+          - text: "1-Gestión de proyectos y metodologías ágiles"
+            href: unidades/ud1/index.qmd
 
+      - section: "🧪 Laboratorios"
+        href: laboratorios/index.qmd
+        contents: 
+          - href: laboratorios/ud1/lab1.qmd
+            text: "UD1 · Lab 1 · Del reto al briefing y la viabilidad"
+    
       - text: "🚀 Desafíos"
         contents:
           - href: desafios/index.qmd
@@ -28,8 +35,6 @@ website:
       - href: proyecto-final/index.qmd
         text: "🏆 Proyecto Intermodular Final"
 
-      - href: laboratorios/index.qmd
-        text: "🧪 Laboratorios"
 
       - href: ia/index.qmd
         text: "🤖 IA"

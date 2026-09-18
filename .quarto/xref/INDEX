@@ -28,5 +28,17 @@
   },
   "laboratorios/index.qmd": {
     "index.html": "a7b49721"
+  },
+  "unidades/ud1.qmd": {
+    "ud1.html": "2acc6341"
+  },
+  "unidades/ud1/ud1.qmd": {
+    "ud1.html": "ddf09c03"
+  },
+  "unidades/ud1/index.qmd": {
+    "index.html": "913c92d2"
+  },
+  "laboratorios/ud1/lab1.qmd": {
+    "lab1.html": "42f4a9bf"
   }
 }

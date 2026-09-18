@@ -1,0 +1,175 @@
+/* =========================================================
+   PÁGINA DE UNIDADES
+   ========================================================= */
+
+.units-header {
+  max-width: 900px;
+  margin: 0 auto 48px auto;
+  padding-top: 45px;
+}
+
+.units-eyebrow {
+  margin-bottom: 18px;
+
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+
+  color: var(--home-text-light);
+}
+
+.units-header h1 {
+  margin: 0;
+
+  font-size: clamp(3rem, 6vw, 5rem);
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+  font-weight: 700;
+
+  color: var(--home-text);
+}
+
+.units-header p {
+  max-width: 620px;
+
+  margin-top: 25px;
+
+  font-size: 1.05rem;
+  line-height: 1.7;
+
+  color: var(--home-text-secondary);
+}
+
+
+/* =========================================================
+   GRID DE UNIDADES
+   ========================================================= */
+
+.units-grid {
+  max-width: 900px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  gap: 16px;
+}
+
+
+/* =========================================================
+   TARJETA
+   ========================================================= */
+
+.unit-card {
+  display: flex;
+  gap: 18px;
+
+  padding: 23px;
+
+  border: 1px solid var(--home-border);
+  border-radius: 11px;
+
+  background: #ffffff;
+
+  transition:
+    border-color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.unit-card:hover {
+  border-color: var(--home-border-hover);
+
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 7px 20px rgba(0,0,0,0.04);
+}
+
+
+/* =========================================================
+   NÚMERO
+   ========================================================= */
+
+.unit-number {
+  flex: 0 0 38px;
+
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+
+  color: var(--home-text-light);
+}
+
+
+/* =========================================================
+   CONTENIDO
+   ========================================================= */
+
+.unit-content {
+  min-width: 0;
+}
+
+.unit-label {
+  margin-bottom: 6px;
+
+  font-size: 0.63rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+
+  color: var(--home-text-light);
+}
+
+.unit-title {
+  font-size: 1.12rem;
+  font-weight: 650;
+
+  color: var(--home-text);
+}
+
+.unit-description {
+  margin-top: 8px;
+
+  font-size: 0.83rem;
+  line-height: 1.55;
+
+  color: var(--home-text-secondary);
+}
+
+.unit-link {
+  display: inline-block;
+
+  margin-top: 13px;
+
+  font-size: 0.77rem;
+  font-weight: 600;
+
+  color: var(--home-text);
+
+  text-decoration: none;
+}
+
+.unit-link:hover {
+  text-decoration: underline;
+}
+
+
+/* =========================================================
+   MÓVIL
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+  .units-header {
+    padding-top: 28px;
+  }
+
+  .units-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .units-header h1 {
+    font-size: 3.2rem;
+  }
+
+}

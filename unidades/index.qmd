@@ -1,7 +1,103 @@
 ---
 title: "Unidades"
+css: unidades.css
 ---
 
-# 📚 Unidades
+<div class="units-header">
 
-En este espacio encontrarás los conocimientos y habilidades que iremos adquiriendo durante el proyecto.
+<div class="units-eyebrow">PROYECTO INTERMODULAR II · DAW</div>
+
+<h1>El recorrido.</h1>
+
+<p>
+Una secuencia de unidades para investigar, diseñar, desarrollar
+y presentar una solución real.
+</p>
+
+</div>
+
+<div class="units-grid">
+
+<div class="unit-card">
+
+<div class="unit-number">01</div>
+
+<div class="unit-content">
+
+<div class="unit-label">PUNTO DE PARTIDA</div>
+
+<div class="unit-title">Gestión de proyectos y metodologías ágiles</div>
+
+
+<a href="ud1/index.html" class="unit-link">Ver unidad →</a>
+
+</div>
+
+</div>
+
+<div class="unit-card">
+
+<div class="unit-number">02</div>
+
+<div class="unit-content">
+
+<div class="unit-label">INVESTIGACIÓN</div>
+
+<div class="unit-title">Investigación aplicada e innovación tecnológica</div>
+
+<!-- <a href="ud2/index.html" class="unit-link">Ver unidad →</a> -->
+
+</div>
+
+</div>
+
+<div class="unit-card">
+
+<div class="unit-number">03</div>
+
+<div class="unit-content">
+
+<div class="unit-label">EMPRENDIMIENTO</div>
+
+<div class="unit-title">Emprendimiento, ideación y propiedad intelectual</div>
+
+<!-- <a href="ud3/index.html" class="unit-link">Ver unidad →</a> -->
+
+</div>
+
+</div>
+
+<div class="unit-card">
+
+<div class="unit-number">04</div>
+
+<div class="unit-content">
+
+<div class="unit-label">DESARROLLO</div>
+
+<div class="unit-title">Arquitectura y despliegue de la solución (coworking)</div>
+
+<!-- <a href="ud4/index.html" class="unit-link">Ver unidad →</a> -->
+
+</div>
+
+</div>
+
+<div class="unit-card">
+
+<div class="unit-number">05</div>
+
+<div class="unit-content">
+
+<div class="unit-label">COMUNICACIÓN</div>
+
+<div class="unit-title">Documentación, comunicación y defensa oral</div>
+
+<!-- <a href="ud5/index.html" class="unit-link">Ver unidad →</a> -->
+
+</div>
+
+</div>
+
+
+</div>

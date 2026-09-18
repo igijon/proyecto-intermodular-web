@@ -81,10 +81,9 @@
     "href": "unidades/index.html",
     "title": "Unidades",
     "section": "",
-    "text": "📚 Unidades\nEn este espacio encontrarás los conocimientos y habilidades que iremos adquiriendo durante el proyecto.",
+    "text": "PROYECTO INTERMODULAR II · DAW\n\n\nEl recorrido.\n\n\nUna secuencia de unidades para investigar, diseñar, desarrollar y presentar una solución real.\n\n\n\n\n\n01\n\n\n\nPUNTO DE PARTIDA\n\n\nGestión de proyectos y metodologías ágiles\n\nVer unidad →\n\n\n\n\n02\n\n\n\nINVESTIGACIÓN\n\n\nInvestigación aplicada e innovación tecnológica\n\n\n\n\n\n\n03\n\n\n\nEMPRENDIMIENTO\n\n\nEmprendimiento, ideación y propiedad intelectual\n\n\n\n\n\n\n04\n\n\n\nDESARROLLO\n\n\nArquitectura y despliegue de la solución (coworking)\n\n\n\n\n\n\n05\n\n\n\nCOMUNICACIÓN\n\n\nDocumentación, comunicación y defensa oral",
     "crumbs": [
-      "📚 Unidades",
-      "Unidades"
+      "📚 Unidades"
     ]
   },
   {
@@ -168,6 +167,266 @@
     "text": "title: “Proyecto Intermodular”\n\n\nPROYECTO INTERMODULAR · DAW\n\n\nAprender. Construir.\n\n\nUn espacio para investigar, diseñar, desarrollar y presentar soluciones reales trabajando como un equipo profesional.\n\n\n\n\nNo vienes a aprender un proyecto.&lt;br&gt;\n&lt;strong&gt;Vienes a aprender a construirlo.&lt;/strong&gt;\n\n\nInvestigación · Diseño · Desarrollo · IA · Comunicación\n\n\n\nTu espacio de trabajo\n\n\n\n&lt;div class=\"home-card-icon\"&gt;📚&lt;/div&gt;\n\n&lt;div class=\"home-card-content\"&gt;\n\n  &lt;div class=\"home-card-label\"&gt;\n    APRENDIZAJE\n  &lt;/div&gt;\n\n  &lt;div class=\"home-card-title\"&gt;\n    Unidades\n  &lt;/div&gt;\n\n  &lt;div class=\"home-card-description\"&gt;\n    Los conocimientos y habilidades que iremos adquiriendo\n    durante el proyecto.\n  &lt;/div&gt;\n\n  &lt;a href=\"unidades/index.html\" class=\"home-card-link\"&gt;\n    Ver unidades →\n  &lt;/a&gt;\n\n&lt;/div&gt;\n\n\n&lt;div class=\"home-card-icon\"&gt;🧪&lt;/div&gt;\n\n&lt;div class=\"home-card-content\"&gt;\n\n  &lt;div class=\"home-card-label\"&gt;\n    EXPERIMENTA\n  &lt;/div&gt;\n\n  &lt;div class=\"home-card-title\"&gt;\n    Laboratorios\n  &lt;/div&gt;\n\n  &lt;div class=\"home-card-description\"&gt;\n    Experiencias prácticas para desarrollar las habilidades\n    necesarias.\n  &lt;/div&gt;\n\n  &lt;a href=\"laboratorios/index.html\" class=\"home-card-link\"&gt;\n    Ver laboratorios →\n  &lt;/a&gt;\n\n&lt;/div&gt;\n\n\n\nDesafíos\n\n\nAprender haciendo. Cada desafío plantea un problema que tendrás que investigar, resolver y convertir en una solución.\n\n\n\n&lt;div class=\"home-project-icon\"&gt;🚀&lt;/div&gt;\n\n&lt;div class=\"home-project-label\"&gt;\n  DESAFÍO 01\n&lt;/div&gt;\n\n&lt;div class=\"home-project-title\"&gt;\n  LifeOS\n&lt;/div&gt;\n\n&lt;div class=\"home-project-description\"&gt;\n  Tu sistema personal de productividad.\n  Construye una aplicación web para organizar tu vida\n  y experimentar con el desarrollo de una solución real.\n&lt;/div&gt;\n\n&lt;div class=\"home-project-meta\"&gt;\n  &lt;span&gt;4 semanas&lt;/span&gt;\n  &lt;span&gt;Trabajo en equipo&lt;/span&gt;\n&lt;/div&gt;\n\n&lt;a href=\"desafios/desafio-01/index.html\" class=\"home-project-link\"&gt;\n  Comenzar desafío →\n&lt;/a&gt;\n\n\n&lt;div class=\"home-project-icon\"&gt;✦&lt;/div&gt;\n\n&lt;div class=\"home-project-label\"&gt;\n  DESAFÍO 02\n&lt;/div&gt;\n\n&lt;div class=\"home-project-title\"&gt;\n  Próximamente\n&lt;/div&gt;\n\n&lt;div class=\"home-project-description\"&gt;\n  El segundo desafío del curso pondrá en práctica nuevas\n  habilidades y nos acercará un paso más al proyecto final.\n&lt;/div&gt;\n\n&lt;div class=\"home-project-meta\"&gt;\n  &lt;span&gt;Próximamente&lt;/span&gt;\n&lt;/div&gt;\n\n&lt;a href=\"desafios/desafio-02/index.html\" class=\"home-project-link\"&gt;\n  Ver desafío →\n&lt;/a&gt;\n\n\n\nProyecto final\n\n\n\n🏆\n\n\n&lt;div class=\"home-card-label\"&gt;\n  EL GRAN RETO\n&lt;/div&gt;\n\n&lt;div class=\"home-final-project-title\"&gt;\n  Proyecto Intermodular Final\n&lt;/div&gt;\n\n&lt;div class=\"home-final-project-description\"&gt;\n  Integra todo lo aprendido para investigar, diseñar,\n  desarrollar y presentar una solución completa a un\n  problema real.\n&lt;/div&gt;\n\n&lt;div class=\"home-project-tags\"&gt;\n  &lt;span&gt;Investigación&lt;/span&gt;\n  &lt;span&gt;Diseño&lt;/span&gt;\n  &lt;span&gt;Desarrollo&lt;/span&gt;\n  &lt;span&gt;IA&lt;/span&gt;\n  &lt;span&gt;Presentación&lt;/span&gt;\n&lt;/div&gt;\n\n&lt;a href=\"proyecto-final/index.html\" class=\"home-project-button\"&gt;\n  Comenzar proyecto →\n&lt;/a&gt;\n\n\n\nRecursos\n\n\n\n&lt;div class=\"home-card-icon\"&gt;🤖&lt;/div&gt;\n\n&lt;div class=\"home-card-content\"&gt;\n\n  &lt;div class=\"home-card-label\"&gt;\n    TRANSVERSAL\n  &lt;/div&gt;\n\n  &lt;div class=\"home-card-title\"&gt;\n    IA\n  &lt;/div&gt;\n\n  &lt;div class=\"home-card-description\"&gt;\n    La inteligencia artificial como herramienta para\n    aprender, investigar y desarrollar.\n  &lt;/div&gt;\n\n  &lt;a href=\"ia/index.html\" class=\"home-card-link\"&gt;\n    Explorar IA →\n  &lt;/a&gt;\n\n&lt;/div&gt;\n\n\n&lt;div class=\"home-card-icon\"&gt;📦&lt;/div&gt;\n\n&lt;div class=\"home-card-content\"&gt;\n\n  &lt;div class=\"home-card-label\"&gt;\n    APOYO\n  &lt;/div&gt;\n\n  &lt;div class=\"home-card-title\"&gt;\n    Recursos\n  &lt;/div&gt;\n\n  &lt;div class=\"home-card-description\"&gt;\n    Plantillas, herramientas y recursos de apoyo\n    para el proyecto.\n  &lt;/div&gt;\n\n  &lt;a href=\"recursos/index.html\" class=\"home-card-link\"&gt;\n    Ver recursos →\n  &lt;/a&gt;\n\n&lt;/div&gt;\n\n\n\n\n&lt;img src=\"images/inmaculada.jpg\" alt=\"Inmaculada Gijón\"&gt;\n\n\n&lt;div class=\"home-teacher-label\"&gt;\n  ESTE ESPACIO HA SIDO DISEÑADO POR\n&lt;/div&gt;\n\n&lt;div class=\"home-teacher-name\"&gt;\n  Inmaculada Gijón\n&lt;/div&gt;\n\n&lt;div class=\"home-teacher-role\"&gt;\n  Profesora de Informática · DAW\n&lt;/div&gt;",
     "crumbs": [
       "🏠 Inicio"
+    ]
+  },
+  {
+    "objectID": "unidades/ud1.html",
+    "href": "unidades/ud1.html",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "",
+    "text": "En el ámbito del software, la diferencia entre ambos radica en la mentalidad, la duración y la forma en que se mide el éxito. Mientras que un proyecto es un esfuerzo temporal con un principio y un fin claros, un producto es una entidad viva que evoluciona continuamente para generar valor a largo plazo mientras siga siendo útil para sus usuarios.\nUn proyecto sirve para construir o actualizar un producto.\n\n\n\nTabla proyecto vs Producto\n\n\n\n\n\nSon los resultados medibles que se esperan conseguir con la creación de la web. Responden a ¿para qué? del proyecto.\nEjemplo: Lograr 1.000 ventas mensuales en la nueva tienda online durante el primer trimestre o reducir un 30% las llamadas de soporte mediante una sección de ayuda autogestionable.\n\n\n\nEs el límite del proyecto; define detalladamente todo el trabajo que se va a realizar y, de igual importancia, lo que queda fuera.\nEjemplo: El alcance incluye el diseño de 5 páginas, pasarela de pago con tarjeta y un blog. No incluye el desarrollo de una app móvil ni la redacción de los textos legales.\n\n\n\nSon los productos tangibles o verificables que se van generando y presentando a lo largo del proyecto.\nEjemplo: El documento de arquitectura de información, los wireframes (bocetos de diseño), el código fuente en GitHub, y finalmente, la web publicada y funcional.\n\n\n\nSon las limitaciones o factores restrictivos que condicionan la ejecución del proyecto. Tradicionalmente forman el “triángulo de hierro” aunque ahora ante la IA hay quien piensa que ya no se cumple del mismo modo.\n\n\n\nTriángulo de hierro\n\n\nEjemplo: El presupuesto máximo es de 15.000 €, la fecha de lanzamiento límite es el 15 de diciembre, o la obligación de usar obligatoriamente la tecnología Angular / React."
+  },
+  {
+    "objectID": "unidades/ud1.html#proyecto-vs-producto",
+    "href": "unidades/ud1.html#proyecto-vs-producto",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "",
+    "text": "En el ámbito del software, la diferencia entre ambos radica en la mentalidad, la duración y la forma en que se mide el éxito. Mientras que un proyecto es un esfuerzo temporal con un principio y un fin claros, un producto es una entidad viva que evoluciona continuamente para generar valor a largo plazo mientras siga siendo útil para sus usuarios.\nUn proyecto sirve para construir o actualizar un producto.\n\n\n\nTabla proyecto vs Producto"
+  },
+  {
+    "objectID": "unidades/ud1.html#objetivos-de-un-proyecto-web",
+    "href": "unidades/ud1.html#objetivos-de-un-proyecto-web",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "",
+    "text": "Son los resultados medibles que se esperan conseguir con la creación de la web. Responden a ¿para qué? del proyecto.\nEjemplo: Lograr 1.000 ventas mensuales en la nueva tienda online durante el primer trimestre o reducir un 30% las llamadas de soporte mediante una sección de ayuda autogestionable."
+  },
+  {
+    "objectID": "unidades/ud1.html#alcance",
+    "href": "unidades/ud1.html#alcance",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "",
+    "text": "Es el límite del proyecto; define detalladamente todo el trabajo que se va a realizar y, de igual importancia, lo que queda fuera.\nEjemplo: El alcance incluye el diseño de 5 páginas, pasarela de pago con tarjeta y un blog. No incluye el desarrollo de una app móvil ni la redacción de los textos legales."
+  },
+  {
+    "objectID": "unidades/ud1.html#entregables",
+    "href": "unidades/ud1.html#entregables",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "",
+    "text": "Son los productos tangibles o verificables que se van generando y presentando a lo largo del proyecto.\nEjemplo: El documento de arquitectura de información, los wireframes (bocetos de diseño), el código fuente en GitHub, y finalmente, la web publicada y funcional."
+  },
+  {
+    "objectID": "unidades/ud1.html#restricciones",
+    "href": "unidades/ud1.html#restricciones",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "",
+    "text": "Son las limitaciones o factores restrictivos que condicionan la ejecución del proyecto. Tradicionalmente forman el “triángulo de hierro” aunque ahora ante la IA hay quien piensa que ya no se cumple del mismo modo.\n\n\n\nTriángulo de hierro\n\n\nEjemplo: El presupuesto máximo es de 15.000 €, la fecha de lanzamiento límite es el 15 de diciembre, o la obligación de usar obligatoriamente la tecnología Angular / React."
+  },
+  {
+    "objectID": "unidades/ud1/ud1.html",
+    "href": "unidades/ud1/ud1.html",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "",
+    "text": "En el ámbito del software, la diferencia entre ambos radica en la mentalidad, la duración y la forma en que se mide el éxito. Mientras que un proyecto es un esfuerzo temporal con un principio y un fin claros, un producto es una entidad viva que evoluciona continuamente para generar valor a largo plazo mientras siga siendo útil para sus usuarios.\nUn proyecto sirve para construir o actualizar un producto.\n\n\n\nTabla proyecto vs Producto\n\n\n\n\n\nSon los resultados medibles que se esperan conseguir con la creación de la web. Responden a ¿para qué? del proyecto.\nEjemplo: Lograr 1.000 ventas mensuales en la nueva tienda online durante el primer trimestre o reducir un 30% las llamadas de soporte mediante una sección de ayuda autogestionable.\n\n\n\nEs el límite del proyecto; define detalladamente todo el trabajo que se va a realizar y, de igual importancia, lo que queda fuera.\nEjemplo: El alcance incluye el diseño de 5 páginas, pasarela de pago con tarjeta y un blog. No incluye el desarrollo de una app móvil ni la redacción de los textos legales.\n\n\n\nSon los productos tangibles o verificables que se van generando y presentando a lo largo del proyecto.\nEjemplo: El documento de arquitectura de información, los wireframes (bocetos de diseño), el código fuente en GitHub, y finalmente, la web publicada y funcional.\n\n\n\nSon las limitaciones o factores restrictivos que condicionan la ejecución del proyecto. Tradicionalmente forman el “triángulo de hierro” aunque ahora ante la IA hay quien piensa que ya no se cumple del mismo modo.\n\n\n\nTriángulo de hierro\n\n\nEjemplo: El presupuesto máximo es de 15.000 €, la fecha de lanzamiento límite es el 15 de diciembre, o la obligación de usar obligatoriamente la tecnología Angular / React."
+  },
+  {
+    "objectID": "unidades/ud1/ud1.html#proyecto-vs-producto",
+    "href": "unidades/ud1/ud1.html#proyecto-vs-producto",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "",
+    "text": "En el ámbito del software, la diferencia entre ambos radica en la mentalidad, la duración y la forma en que se mide el éxito. Mientras que un proyecto es un esfuerzo temporal con un principio y un fin claros, un producto es una entidad viva que evoluciona continuamente para generar valor a largo plazo mientras siga siendo útil para sus usuarios.\nUn proyecto sirve para construir o actualizar un producto.\n\n\n\nTabla proyecto vs Producto"
+  },
+  {
+    "objectID": "unidades/ud1/ud1.html#objetivos-de-un-proyecto-web",
+    "href": "unidades/ud1/ud1.html#objetivos-de-un-proyecto-web",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "",
+    "text": "Son los resultados medibles que se esperan conseguir con la creación de la web. Responden a ¿para qué? del proyecto.\nEjemplo: Lograr 1.000 ventas mensuales en la nueva tienda online durante el primer trimestre o reducir un 30% las llamadas de soporte mediante una sección de ayuda autogestionable."
+  },
+  {
+    "objectID": "unidades/ud1/ud1.html#alcance",
+    "href": "unidades/ud1/ud1.html#alcance",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "",
+    "text": "Es el límite del proyecto; define detalladamente todo el trabajo que se va a realizar y, de igual importancia, lo que queda fuera.\nEjemplo: El alcance incluye el diseño de 5 páginas, pasarela de pago con tarjeta y un blog. No incluye el desarrollo de una app móvil ni la redacción de los textos legales."
+  },
+  {
+    "objectID": "unidades/ud1/ud1.html#entregables",
+    "href": "unidades/ud1/ud1.html#entregables",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "",
+    "text": "Son los productos tangibles o verificables que se van generando y presentando a lo largo del proyecto.\nEjemplo: El documento de arquitectura de información, los wireframes (bocetos de diseño), el código fuente en GitHub, y finalmente, la web publicada y funcional."
+  },
+  {
+    "objectID": "unidades/ud1/ud1.html#restricciones",
+    "href": "unidades/ud1/ud1.html#restricciones",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "",
+    "text": "Son las limitaciones o factores restrictivos que condicionan la ejecución del proyecto. Tradicionalmente forman el “triángulo de hierro” aunque ahora ante la IA hay quien piensa que ya no se cumple del mismo modo.\n\n\n\nTriángulo de hierro\n\n\nEjemplo: El presupuesto máximo es de 15.000 €, la fecha de lanzamiento límite es el 15 de diciembre, o la obligación de usar obligatoriamente la tecnología Angular / React."
+  },
+  {
+    "objectID": "unidades/ud1/index.html",
+    "href": "unidades/ud1/index.html",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "",
+    "text": "En el ámbito del software, la diferencia entre ambos radica en la mentalidad, la duración y la forma en que se mide el éxito. Mientras que un proyecto es un esfuerzo temporal con un principio y un fin claros, un producto es una entidad viva que evoluciona continuamente para generar valor a largo plazo mientras siga siendo útil para sus usuarios.\nUn proyecto sirve para construir o actualizar un producto.\n\n\n\nTabla proyecto vs Producto\n\n\n\n\n\nSon los resultados medibles que se esperan conseguir con la creación de la web. Responden a ¿para qué? del proyecto.\nEjemplo: Lograr 1.000 ventas mensuales en la nueva tienda online durante el primer trimestre o reducir un 30% las llamadas de soporte mediante una sección de ayuda autogestionable.\n\n\n\nEs el límite del proyecto; define detalladamente todo el trabajo que se va a realizar y, de igual importancia, lo que queda fuera.\nEjemplo: El alcance incluye el diseño de 5 páginas, pasarela de pago con tarjeta y un blog. No incluye el desarrollo de una app móvil ni la redacción de los textos legales.\n\n\n\nSon los productos tangibles o verificables que se van generando y presentando a lo largo del proyecto.\nEjemplo: El documento de arquitectura de información, los wireframes (bocetos de diseño), el código fuente en GitHub, y finalmente, la web publicada y funcional.\n\n\n\nSon las limitaciones o factores restrictivos que condicionan la ejecución del proyecto. Tradicionalmente forman el “triángulo de hierro” aunque ahora ante la IA hay quien piensa que ya no se cumple del mismo modo.\n\n\n\nTriángulo de hierro\n\n\nEjemplo: El presupuesto máximo es de 15.000 €, la fecha de lanzamiento límite es el 15 de diciembre, o la obligación de usar obligatoriamente la tecnología Angular / React.",
+    "crumbs": [
+      "📚 Unidades",
+      "1-Gestión de proyectos y metodologías ágiles"
+    ]
+  },
+  {
+    "objectID": "unidades/ud1/index.html#proyecto-vs-producto",
+    "href": "unidades/ud1/index.html#proyecto-vs-producto",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "",
+    "text": "En el ámbito del software, la diferencia entre ambos radica en la mentalidad, la duración y la forma en que se mide el éxito. Mientras que un proyecto es un esfuerzo temporal con un principio y un fin claros, un producto es una entidad viva que evoluciona continuamente para generar valor a largo plazo mientras siga siendo útil para sus usuarios.\nUn proyecto sirve para construir o actualizar un producto.\n\n\n\nTabla proyecto vs Producto",
+    "crumbs": [
+      "📚 Unidades",
+      "1-Gestión de proyectos y metodologías ágiles"
+    ]
+  },
+  {
+    "objectID": "unidades/ud1/index.html#objetivos-de-un-proyecto-web",
+    "href": "unidades/ud1/index.html#objetivos-de-un-proyecto-web",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "",
+    "text": "Son los resultados medibles que se esperan conseguir con la creación de la web. Responden a ¿para qué? del proyecto.\nEjemplo: Lograr 1.000 ventas mensuales en la nueva tienda online durante el primer trimestre o reducir un 30% las llamadas de soporte mediante una sección de ayuda autogestionable.",
+    "crumbs": [
+      "📚 Unidades",
+      "1-Gestión de proyectos y metodologías ágiles"
+    ]
+  },
+  {
+    "objectID": "unidades/ud1/index.html#alcance",
+    "href": "unidades/ud1/index.html#alcance",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "",
+    "text": "Es el límite del proyecto; define detalladamente todo el trabajo que se va a realizar y, de igual importancia, lo que queda fuera.\nEjemplo: El alcance incluye el diseño de 5 páginas, pasarela de pago con tarjeta y un blog. No incluye el desarrollo de una app móvil ni la redacción de los textos legales.",
+    "crumbs": [
+      "📚 Unidades",
+      "1-Gestión de proyectos y metodologías ágiles"
+    ]
+  },
+  {
+    "objectID": "unidades/ud1/index.html#entregables",
+    "href": "unidades/ud1/index.html#entregables",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "",
+    "text": "Son los productos tangibles o verificables que se van generando y presentando a lo largo del proyecto.\nEjemplo: El documento de arquitectura de información, los wireframes (bocetos de diseño), el código fuente en GitHub, y finalmente, la web publicada y funcional.",
+    "crumbs": [
+      "📚 Unidades",
+      "1-Gestión de proyectos y metodologías ágiles"
+    ]
+  },
+  {
+    "objectID": "unidades/ud1/index.html#restricciones",
+    "href": "unidades/ud1/index.html#restricciones",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "",
+    "text": "Son las limitaciones o factores restrictivos que condicionan la ejecución del proyecto. Tradicionalmente forman el “triángulo de hierro” aunque ahora ante la IA hay quien piensa que ya no se cumple del mismo modo.\n\n\n\nTriángulo de hierro\n\n\nEjemplo: El presupuesto máximo es de 15.000 €, la fecha de lanzamiento límite es el 15 de diciembre, o la obligación de usar obligatoriamente la tecnología Angular / React.",
+    "crumbs": [
+      "📚 Unidades",
+      "1-Gestión de proyectos y metodologías ágiles"
+    ]
+  },
+  {
+    "objectID": "laboratorios/ud1/lab1.html",
+    "href": "laboratorios/ud1/lab1.html",
+    "title": "UD1 · Lab 1 · Del reto al briefing y la viabilidad",
+    "section": "",
+    "text": "Debemos identificar:\n\nQué sabemos\nQué no sabemos\nQué necesitamos preguntar\nQué estamos suponiendo\n\nVamos a realizar una matriz de incertidumbres:\n\n\n\nMatriz de incertidumbres\n\n\n\n\n\nConstruimos:\ncontexto→problema→actores→objetivos→alcance→entregables→restricciones→recursos→plazo→éxito\n\n\n\nRealizar tabla:\nTécnica / temporal / económica / operativa / legal\n\n\n\nPasarás tu briefing a la IA pidiéndole algo como esto:\n“Actúa como consultor de proyectos software. Revisa nuestro briefing. Identifica información ambigua, objetivos mal definidos, restricciones no contempladas, riesgos y preguntas que deberíamos realizar antes de iniciar el desarrollo. No propongas soluciones todavía.”\nDebes analizar la respuesta y guardar el prompt que le pides en un md en la carpeta docs\n\n\n\nproyecto-coworking/\n│\n├── README.md\n│\n└── docs/\n    ├── briefing.md\n    ├── viabilidad.md\n    ├── incertidumbres.md\n    └── ia-prompt.md",
+    "crumbs": [
+      "🧪 Laboratorios",
+      "UD1 · Lab 1 · Del reto al briefing y la viabilidad"
+    ]
+  },
+  {
+    "objectID": "laboratorios/ud1/lab1.html#paso-2.-descubrir-información",
+    "href": "laboratorios/ud1/lab1.html#paso-2.-descubrir-información",
+    "title": "UD1 · Lab 1 · Del reto al briefing y la viabilidad",
+    "section": "",
+    "text": "Debemos identificar:\n\nQué sabemos\nQué no sabemos\nQué necesitamos preguntar\nQué estamos suponiendo\n\nVamos a realizar una matriz de incertidumbres:\n\n\n\nMatriz de incertidumbres",
+    "crumbs": [
+      "🧪 Laboratorios",
+      "UD1 · Lab 1 · Del reto al briefing y la viabilidad"
+    ]
+  },
+  {
+    "objectID": "laboratorios/ud1/lab1.html#paso-3.-elaborar-briefing",
+    "href": "laboratorios/ud1/lab1.html#paso-3.-elaborar-briefing",
+    "title": "UD1 · Lab 1 · Del reto al briefing y la viabilidad",
+    "section": "",
+    "text": "Construimos:\ncontexto→problema→actores→objetivos→alcance→entregables→restricciones→recursos→plazo→éxito",
+    "crumbs": [
+      "🧪 Laboratorios",
+      "UD1 · Lab 1 · Del reto al briefing y la viabilidad"
+    ]
+  },
+  {
+    "objectID": "laboratorios/ud1/lab1.html#paso-4.-analizar-viabilidad",
+    "href": "laboratorios/ud1/lab1.html#paso-4.-analizar-viabilidad",
+    "title": "UD1 · Lab 1 · Del reto al briefing y la viabilidad",
+    "section": "",
+    "text": "Realizar tabla:\nTécnica / temporal / económica / operativa / legal",
+    "crumbs": [
+      "🧪 Laboratorios",
+      "UD1 · Lab 1 · Del reto al briefing y la viabilidad"
+    ]
+  },
+  {
+    "objectID": "laboratorios/ud1/lab1.html#paso-5---ia-como-auditor",
+    "href": "laboratorios/ud1/lab1.html#paso-5---ia-como-auditor",
+    "title": "UD1 · Lab 1 · Del reto al briefing y la viabilidad",
+    "section": "",
+    "text": "Pasarás tu briefing a la IA pidiéndole algo como esto:\n“Actúa como consultor de proyectos software. Revisa nuestro briefing. Identifica información ambigua, objetivos mal definidos, restricciones no contempladas, riesgos y preguntas que deberíamos realizar antes de iniciar el desarrollo. No propongas soluciones todavía.”\nDebes analizar la respuesta y guardar el prompt que le pides en un md en la carpeta docs",
+    "crumbs": [
+      "🧪 Laboratorios",
+      "UD1 · Lab 1 · Del reto al briefing y la viabilidad"
+    ]
+  },
+  {
+    "objectID": "laboratorios/ud1/lab1.html#paso-6.-resultado-de-la-sesión",
+    "href": "laboratorios/ud1/lab1.html#paso-6.-resultado-de-la-sesión",
+    "title": "UD1 · Lab 1 · Del reto al briefing y la viabilidad",
+    "section": "",
+    "text": "proyecto-coworking/\n│\n├── README.md\n│\n└── docs/\n    ├── briefing.md\n    ├── viabilidad.md\n    ├── incertidumbres.md\n    └── ia-prompt.md",
+    "crumbs": [
+      "🧪 Laboratorios",
+      "UD1 · Lab 1 · Del reto al briefing y la viabilidad"
+    ]
+  },
+  {
+    "objectID": "laboratorios/ud1/lab1.html#plantilla-de-un-briefing",
+    "href": "laboratorios/ud1/lab1.html#plantilla-de-un-briefing",
+    "title": "UD1 · Lab 1 · Del reto al briefing y la viabilidad",
+    "section": "Plantilla de un Briefing",
+    "text": "Plantilla de un Briefing\n\n\n\nBriefing",
+    "crumbs": [
+      "🧪 Laboratorios",
+      "UD1 · Lab 1 · Del reto al briefing y la viabilidad"
+    ]
+  },
+  {
+    "objectID": "laboratorios/ud1/lab1.html#identificación-de-actores",
+    "href": "laboratorios/ud1/lab1.html#identificación-de-actores",
+    "title": "UD1 · Lab 1 · Del reto al briefing y la viabilidad",
+    "section": "Identificación de actores",
+    "text": "Identificación de actores\nDebemos introducir stakeholders de forma muy visual.\n\n\n\nStakeholders\n\n\nPor ejemplo:\n\n\n\nStakeholders\n\n\n\nObjetivos\nPor ejemplo:\n“Desarrollar una plataforma web para gestionar reservas de espacios de coworking”\nSería un objetivo/alcance, mientras que:\n“Aplicación web desplegada + documentación + manual de usuario”\nson entregables.\nDebemos redactarlos de forma detallada y que no sean objetivos generales ni ambiguos.\nUn objetivo como:\n\n“Hacer una aplicación moderna.”\n\nes demasiado ambiguo.\nMejor:\n\n“Desarrollar una aplicación web que permita a los usuarios consultar la disponibilidad de los espacios y realizar reservas.”\n\nY podemos introducir el concepto de SMART sin convertirlo en teoría empresarial:\n\nSpecific\nMeasurable\nAchievable\nRelevant\nTime-bound\n\nNo hace falta que todos los objetivos sean perfectamente SMART, pero sí que aprendamos a preguntarnos:\n\n¿Cómo sabremos que hemos conseguido el objetivo?",
+    "crumbs": [
+      "🧪 Laboratorios",
+      "UD1 · Lab 1 · Del reto al briefing y la viabilidad"
+    ]
+  },
+  {
+    "objectID": "laboratorios/ud1/lab1.html#restricciones",
+    "href": "laboratorios/ud1/lab1.html#restricciones",
+    "title": "UD1 · Lab 1 · Del reto al briefing y la viabilidad",
+    "section": "Restricciones",
+    "text": "Restricciones\n\n💡 ¿Qué podría impedir que nuestro proyecto se realizase como inicialmente lo imaginamos?\n\nTenemos que buscar restricciones de diferentes tipos:\n\n\n\nRestricciones",
+    "crumbs": [
+      "🧪 Laboratorios",
+      "UD1 · Lab 1 · Del reto al briefing y la viabilidad"
+    ]
+  },
+  {
+    "objectID": "laboratorios/ud1/lab1.html#viabilidad-del-proyecto",
+    "href": "laboratorios/ud1/lab1.html#viabilidad-del-proyecto",
+    "title": "UD1 · Lab 1 · Del reto al briefing y la viabilidad",
+    "section": "Viabilidad del proyecto",
+    "text": "Viabilidad del proyecto\n\n💡 La viabilidad no es si/no. También sirve para detectar qué tenemos que cambiar antes de empezar.\n\nEn esta fase buscamos una viabilidad inicial.\nUtilizamos cinco dimensiones:\n\n\n\nViabilidad\n\n\n\n\n\nViabilidad\n\n\nMVP: Producto mínimo viable\nRGPD: Reglamento General de Protección de Datos\n\nHerramientas que vamos a utilizar\n🧠 Para pensar y documentar\nMarkdown + Github\n/docs/briefing.md\n/docs/viabilidad.md\n\n💡 La documentación va a formar parte del repositorio del proyecto y queda versionada\n\n📋 Para organizar\nGithub Proyects\nTodavía no vamos a tener un Product Backlog completo. Pero en esta sesión podemos:\nIdeas → Análisis → Viable/No Viable\n🤖 Para IA\nIntroduciría la IA con un papel concreto: IA como consultor, no responsable de la decisión.\nIA propone → equipo comprueba → equipo acepta/rechaza → equipo documenta",
+    "crumbs": [
+      "🧪 Laboratorios",
+      "UD1 · Lab 1 · Del reto al briefing y la viabilidad"
     ]
   }
 ]

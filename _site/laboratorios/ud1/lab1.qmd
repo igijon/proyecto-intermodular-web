@@ -1,0 +1,20 @@
+---
+title: "UD1 · Lab 1 · Del reto al briefing y la viabilidad"
+---
+
+# 🧪 ¿Es viable nuestro proyecto?
+
+## Paso 1. Recibimos el reto
+
+## Paso 2. Descubrir información
+
+Debemos identificar:
+
+- Qué sabemos
+- Qué no sabemos
+- Qué necesitamos preguntar
+- Qué estamos suponiendo
+
+Vamos a realizar una **matriz de incertidumbres:**
+
+![Matriz de incertidumbres](images/lab1_1.png)
