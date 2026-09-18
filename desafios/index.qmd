@@ -1,7 +1,0 @@
----
-title: "Desafíos"
----
-
-# 🚀 Desafíos
-
-Dos desafíos nos ayudarán a poner en práctica lo aprendido.

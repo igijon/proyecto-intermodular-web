@@ -91,7 +91,7 @@
     "href": "desafios/index.html",
     "title": "Desafíos",
     "section": "",
-    "text": "🚀 Desafíos\nDos desafíos nos ayudarán a poner en práctica lo aprendido.",
+    "text": "🚀 Desafíos\nDesafíos que nos ayudarán a poner en práctica lo aprendido.",
     "crumbs": [
       "🚀 Desafíos",
       "Desafíos"
@@ -100,12 +100,12 @@
   {
     "objectID": "desafios/desafio-01/index.html",
     "href": "desafios/desafio-01/index.html",
-    "title": "Desafío 1 · LifeOS",
+    "title": "Desafío 1 · LifeOS - Tu vida digital",
     "section": "",
-    "text": "🚀 Desafío 1 · LifeOS\nNuestro primer desafío.",
+    "text": "🚀 Desafío 1 · LifeOS - Tu vida digital\nEl alumnado debe desarrollar una aplicación web llamada provisionalmente LifeOS, pero realmente cada alumno elegirá su nombre.\nSerá una especie de dashboard personal para organizar planes, actividades, pequeños gastos, hábitos y objetivos.\n\n\n🧩 Reto\n\n💡 Deberás diseñar y desarrollar una aplicación web que ayude a una persona a organizar su vida diaria desde un único lugar.\n\nLa aplicación debería permitir, como mínimo:\n\n📅 organizar planes y eventos\n✅ gestionar tareas\n💰 controlar pequeños gastos\n📝 registrar información personal\n📊 visualizar un resumen de su situación\n💾 conservar los datos aunque cierre el navegador\n\nQueremos realizar una SPA sencilla, desarrollada inicialmente con JavaScript + Vanilla + Vite, donde diferentes funcionalidades comparten datos y estado.\nEjemplos que te pueden dar ideas:\n\n\n\nEjemplo\n\n\n\n\n\nEjemplo\n\n\n\n\n\nEjemplo\n\n\n\n\n\nEjemplo",
     "crumbs": [
       "🚀 Desafíos",
-      "Desafío 1 · LifeOS"
+      "D1 · LifeOS"
     ]
   },
   {

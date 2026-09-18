@@ -12,25 +12,20 @@ website:
         text: "🏠 Inicio"
 
       - section: "📚 Unidades"
-        href: unidades/index.qmd
         contents:
           - text: "1-Gestión de proyectos y metodologías ágiles"
             href: unidades/ud1/index.qmd
 
       - section: "🧪 Laboratorios"
-        href: laboratorios/index.qmd
         contents: 
           - href: laboratorios/ud1/lab1.qmd
             text: "UD1 · Lab 1 · Del reto al briefing y la viabilidad"
     
-      - text: "🚀 Desafíos"
+      - section: "🚀 Desafíos"
         contents:
-          - href: desafios/index.qmd
-            text: "Desafíos"
           - href: desafios/desafio-01/index.qmd
-            text: "Desafío 1 · LifeOS"
-          - href: desafios/desafio-02/index.qmd
-            text: "Desafío 2"
+            text: "D1 · LifeOS"
+
 
       - href: proyecto-final/index.qmd
         text: "🏆 Proyecto Intermodular Final"
