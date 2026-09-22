@@ -533,20 +533,120 @@
     "href": "laboratorios/ud1/lab2.html",
     "title": "UD1 · Lab 2 · Del problema al backlog",
     "section": "",
-    "text": "El briefing de LifeOS está terminado. Ahora sois el equipo de análisis. Tenéis que convertir necesidades detectadas en el primer Product Backlog del producto\n\n\n\nVamos a revisar el brefing y obtener las necesidades.\nPor ejemplo:\nN1 → Organizar tareas\nN2 → Priorizar tareas\nN3 → Trabajar con objetivos\nN4 → Saber qué tareas están pendientes\nN5 → Consultar progreso\nN6 → No perder la información\n\n\n\nN1\n├── Crear tarea\n├── Editar tarea\n├── Eliminar tarea\n└── Completar tarea\n\nN2\n├── Asignar prioridad\n└── Ordenar por prioridad\n\nN3\n├── Crear objetivo\n├── Editar objetivo\n├── Asociar tareas\n└── Consultar progreso"
+    "text": "El briefing de LifeOS está terminado. Ahora sois el equipo de análisis. Tenéis que convertir necesidades detectadas en el primer Product Backlog del producto\n\n\n\nVamos a revisar el brefing y obtener las necesidades.\n\nTodos los ejemplos que aquí aparecen son sólo eso, ejemplos. No son los que debéis usar en vuestro proyecto. Tenéis que extraerlos vosotros mismos del briefing.\n\nPor ejemplo:\nN1 → Organizar tareas\nN2 → Priorizar tareas\nN3 → Trabajar con objetivos\nN4 → Saber qué tareas están pendientes\nN5 → Consultar progreso\nN6 → No perder la información\n\n\n\nN1\n├── Crear tarea\n├── Editar tarea\n├── Eliminar tarea\n└── Completar tarea\n\nN2\n├── Asignar prioridad\n└── Ordenar por prioridad\n\nN3\n├── Crear objetivo\n├── Editar objetivo\n├── Asociar tareas\n└── Consultar progreso",
+    "crumbs": [
+      "🧪 Laboratorios",
+      "UD1 · Lab 2 · Del problema al backlog"
+    ]
   },
   {
     "objectID": "laboratorios/ud1/lab2.html#paso-1.-extraemos-necesidades",
     "href": "laboratorios/ud1/lab2.html#paso-1.-extraemos-necesidades",
     "title": "UD1 · Lab 2 · Del problema al backlog",
     "section": "",
-    "text": "Vamos a revisar el brefing y obtener las necesidades.\nPor ejemplo:\nN1 → Organizar tareas\nN2 → Priorizar tareas\nN3 → Trabajar con objetivos\nN4 → Saber qué tareas están pendientes\nN5 → Consultar progreso\nN6 → No perder la información"
+    "text": "Vamos a revisar el brefing y obtener las necesidades.\n\nTodos los ejemplos que aquí aparecen son sólo eso, ejemplos. No son los que debéis usar en vuestro proyecto. Tenéis que extraerlos vosotros mismos del briefing.\n\nPor ejemplo:\nN1 → Organizar tareas\nN2 → Priorizar tareas\nN3 → Trabajar con objetivos\nN4 → Saber qué tareas están pendientes\nN5 → Consultar progreso\nN6 → No perder la información",
+    "crumbs": [
+      "🧪 Laboratorios",
+      "UD1 · Lab 2 · Del problema al backlog"
+    ]
   },
   {
     "objectID": "laboratorios/ud1/lab2.html#paso-2.-identificar-funcionalidaes",
     "href": "laboratorios/ud1/lab2.html#paso-2.-identificar-funcionalidaes",
     "title": "UD1 · Lab 2 · Del problema al backlog",
     "section": "",
-    "text": "N1\n├── Crear tarea\n├── Editar tarea\n├── Eliminar tarea\n└── Completar tarea\n\nN2\n├── Asignar prioridad\n└── Ordenar por prioridad\n\nN3\n├── Crear objetivo\n├── Editar objetivo\n├── Asociar tareas\n└── Consultar progreso"
+    "text": "N1\n├── Crear tarea\n├── Editar tarea\n├── Eliminar tarea\n└── Completar tarea\n\nN2\n├── Asignar prioridad\n└── Ordenar por prioridad\n\nN3\n├── Crear objetivo\n├── Editar objetivo\n├── Asociar tareas\n└── Consultar progreso",
+    "crumbs": [
+      "🧪 Laboratorios",
+      "UD1 · Lab 2 · Del problema al backlog"
+    ]
+  },
+  {
+    "objectID": "unidades/ud1/index.html#conceptos-clave",
+    "href": "unidades/ud1/index.html#conceptos-clave",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "Conceptos clave",
+    "text": "Conceptos clave\n\nNecesidad\nLa carencia u oportunidad real del usuario o del negocio (por ejemplo: “los clientes necesitan comprar productos sin llamar por teléfono”).\n\n\nRequisito funcional / no funcional\nRequisito funcional: Lo que la aplicación hace (por ejemplo: “el sistema debe permitir pagar con tarjeta de crédito”).\nRequisito no funcional: Cómo se comporta la aplicación en términos de calidad (por ejemplo: “la página debe cargar en menos de 2 segundos” o “los datos deben estar cifrados”).\n\n\nAlcance\nLos límites del proyecto; define exactamente qué se incluye y qué se deja fuera para evitar retrasos.\n\n\nÉpicas\nGrandes bloques de trabajo o funcionalidades generales que se dividen en partes más pequeñas (por ejemplo: “Módulo de autenticación de usuarios”)\n\n\nHistorias de usuario\nPequeñas piezas de valor contadas desde la perspectiva del usuario, usando el formato:\n“Como [rol], quiero [acción] para [beneficio]”.\n\n\nCriterios de aceptación\nLas condiciones específicas que debe cumplir una historia de usuario para darse por buena y terminada (por ejemplo: “el botón de registro se desactiva si el correo es inválido”)",
+    "crumbs": [
+      "📚 Unidades",
+      "1-Gestión de proyectos y metodologías ágiles"
+    ]
+  },
+  {
+    "objectID": "unidades/ud1/index.html#del-problema-a-las-necesidades",
+    "href": "unidades/ud1/index.html#del-problema-a-las-necesidades",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "Del problema a las necesidades",
+    "text": "Del problema a las necesidades\nImaginemos que tengo: “Quiero saber qué tengo pendiente”\nTodavía no sabemos qué debe hacer la aplicación exactamebnte, pero sí sabemos que hay una necesidad de organizar tareas y consultar progreso.",
+    "crumbs": [
+      "📚 Unidades",
+      "1-Gestión de proyectos y metodologías ágiles"
+    ]
+  },
+  {
+    "objectID": "unidades/ud1/index.html#necesidad---f",
+    "href": "unidades/ud1/index.html#necesidad---f",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "Necesidad -> f",
+    "text": "Necesidad -&gt; f",
+    "crumbs": [
+      "📚 Unidades",
+      "1-Gestión de proyectos y metodologías ágiles"
+    ]
+  },
+  {
+    "objectID": "unidades/ud1/index.html#necesidad---funcionalidad",
+    "href": "unidades/ud1/index.html#necesidad---funcionalidad",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "Necesidad -> Funcionalidad",
+    "text": "Necesidad -&gt; Funcionalidad\nEjemplo:\n\n\n\nNecesidad-funcionalidad\n\n\n\nUna necesidad puede dar lugar a varias funcionalidades, y una funcionalidad puede cubrir varias necesidades.\n\nPor ejemplo:\nNecesidad: “Quiero organizar mis tareas”\nPuede convertirse en:\n\ncrear tarea\neditar tarea\neliminar tarea\ncompletar tarea\nasignar prioridad\nasignar categoría\nestablecer fecha límite",
+    "crumbs": [
+      "📚 Unidades",
+      "1-Gestión de proyectos y metodologías ágiles"
+    ]
+  },
+  {
+    "objectID": "unidades/ud1/index.html#funcionalidades---épicas",
+    "href": "unidades/ud1/index.html#funcionalidades---épicas",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "Funcionalidades -> épicas",
+    "text": "Funcionalidades -&gt; épicas\nAhora podemos agruparlas.\nPodríamos tener algo así (recuerda que son sólo ejemplos):\n📝 Épica 1 — Gestión de tareas\nTodo lo relacionado con crear y gestionar tareas.\n\nCrear tarea\nEditar tarea\nEliminar tarea\nCompletar tarea\nEstablecer fecha\nEstablecer prioridad",
+    "crumbs": [
+      "📚 Unidades",
+      "1-Gestión de proyectos y metodologías ágiles"
+    ]
+  },
+  {
+    "objectID": "unidades/ud1/index.html#historias-de-usuario-1",
+    "href": "unidades/ud1/index.html#historias-de-usuario-1",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "Historias de usuario",
+    "text": "Historias de usuario\nVamos a pasar de:\n“Crear tarea”\na algo que tenga sentido desde la perspectiva del usuario.\nHistoria =&gt; Como usuario, quiero establecer crear una tarea para registrar algo que necesito realizar\nOtro ejemplo:\nHistoria =&gt; Como usuario, quiero asignar una prioridad a una tarea para identificar cuáles requieren mayor atención\n…",
+    "crumbs": [
+      "📚 Unidades",
+      "1-Gestión de proyectos y metodologías ágiles"
+    ]
+  },
+  {
+    "objectID": "unidades/ud1/index.html#ejemplo-completo",
+    "href": "unidades/ud1/index.html#ejemplo-completo",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "Ejemplo completo",
+    "text": "Ejemplo completo\nProblema\n\nTengo muchas cosas que hacer y me cuesta organizarme.\n\n↓\nNecesidad\n\nNecesito registrar y organizar mis tareas.\n\n↓\nFuncionalidades\n\nCrear tareas.\nEditar tareas.\nEliminar tareas.\nCompletar tareas.\nEstablecer prioridad.\nEstablecer fecha límite.\n\n↓\nÉpica\n\nGestión de tareas\n\n↓\nHistoria\n\nComo usuario, quiero crear una tarea para registrar una actividad que necesito realizar.\n\n↓\nCriterios de aceptación\n\nLa tarea debe tener un título.\nEl usuario puede crear la tarea desde la interfaz.\nUna vez creada aparece en la lista de tareas.\nLa nueva tarea comienza como pendiente.\nEl sistema no permite crear una tarea sin título.\n\n↓\nTareas técnicas\nAquí sí pueden aparecer cosas como:\n\nCrear formulario.\nValidar campos.\nCrear objeto task.\nAñadir tarea al array.\nRenderizar tarea.\n…\n\n\nLa historia describe QUÉ necesita el usuario. Las tareas describen CÓMO lo vamos a implementar",
+    "crumbs": [
+      "📚 Unidades",
+      "1-Gestión de proyectos y metodologías ágiles"
+    ]
+  },
+  {
+    "objectID": "unidades/ud1/index.html#requisitos-no-funcionales",
+    "href": "unidades/ud1/index.html#requisitos-no-funcionales",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "Requisitos no funcionales",
+    "text": "Requisitos no funcionales\nRequisitos funcionales\n\nEl usuario podrá crear tareas\n\n\nEl usuario podrá asociar una tarea a un objetivo\n\nRequisitos no funcionales\n\nLa aplicación deberá funcionar correctamente en los navegadores modernos definidos para el proyecto\n\n\nLos datos deberán mantenerse al recargar la página\n\n\nLa interfaz deberá ser usable desde dispositivos móviles\n\n\nLa aplicación deberá cumplir los criterios de accesibilidad establecidos para el proyecto\n\n“Hacer una aplicación” no significa solamente implementar funcionalidades",
+    "crumbs": [
+      "📚 Unidades",
+      "1-Gestión de proyectos y metodologías ágiles"
+    ]
   }
 ]

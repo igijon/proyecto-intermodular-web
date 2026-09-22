@@ -80,33 +80,177 @@ La web se traslada al servidor definitivo, se vincula el dominio (ej. tuweb.com)
 
 # 🛷 De la necesidad al requisito
 
-## Necesidad
+## Conceptos clave
+
+### Necesidad
 
 La carencia u oportunidad real del usuario o del negocio (por ejemplo: “los clientes necesitan comprar productos sin llamar por teléfono”).
 
-## Requisito funcional / no funcional
+
+### Requisito funcional / no funcional
 
 **Requisito funcional:** Lo que la aplicación **hace** (por ejemplo: “el sistema debe permitir pagar con tarjeta de crédito”).
 
 **Requisito no funcional:** Cómo se **comporta** la aplicación en términos de calidad (por ejemplo: “la página debe cargar en menos de 2 segundos” o “los datos deben estar cifrados”).
 
-## Alcance
+### Alcance
 
 Los límites del proyecto; define exactamente qué se incluye y qué se deja fuera para evitar retrasos.
 
-## Épicas
+### Épicas
 
 Grandes bloques de trabajo o funcionalidades generales que se dividen en partes más pequeñas (por ejemplo: “Módulo de autenticación de usuarios”)
 
-## Historias de usuario
+### Historias de usuario
 
 Pequeñas piezas de valor contadas desde la perspectiva del usuario, usando el formato:
 
 “Como *[rol]*, quiero *[acción]* para *[beneficio]*”.
 
-## Criterios de aceptación
+### Criterios de aceptación
 
 Las condiciones específicas que debe cumplir una historia de usuario para darse por buena y terminada (por ejemplo: “el botón de registro se desactiva si el correo es inválido”)
 
+## Del problema a las necesidades
+
+Imaginemos que tengo: *"Quiero saber qué tengo pendiente"*
+
+Todavía no sabemos qué debe hacer la aplicación exactamebnte, pero sí sabemos que hay una necesidad de **organizar tareas** y **consultar progreso**.
+
+## Necesidad -> Funcionalidad
+
+Ejemplo:
+
+![Necesidad-funcionalidad](./images/ud1_3.png)
 
 
+>**Una necesidad puede dar lugar a varias funcionalidades, y una funcionalidad puede cubrir varias necesidades.**
+
+Por ejemplo:
+
+**Necesidad:** "Quiero organizar mis tareas"
+
+Puede convertirse en:
+
+- crear tarea
+- editar tarea
+- eliminar tarea
+- completar tarea
+- asignar prioridad
+- asignar categoría
+- establecer fecha límite
+
+## Funcionalidades -> épicas
+
+Ahora podemos agruparlas.
+
+Podríamos tener algo así (**recuerda que son sólo ejemplos**):
+
+📝 **Épica 1 — Gestión de tareas**
+
+Todo lo relacionado con crear y gestionar tareas.
+
+- *Crear tarea*
+- *Editar tarea*
+- *Eliminar tarea*
+- *Completar tarea*
+- *Establecer fecha*
+- *Establecer prioridad*    
+  
+
+## Historias de usuario
+
+Vamos a pasar de:
+
+**"Crear tarea"**
+
+a algo que tenga sentido desde la perspectiva del usuario.
+
+**Historia** => **Como usuario, quiero establecer crear una tarea para registrar algo que necesito realizar**
+
+Otro ejemplo:
+
+**Historia** => **Como usuario, quiero asignar una prioridad a una tarea para identificar cuáles requieren mayor atención**
+
+...
+
+
+## Ejemplo completo
+
+**Problema**
+
+>Tengo muchas cosas que hacer y me cuesta organizarme.
+
+↓
+
+**Necesidad**
+
+>Necesito registrar y organizar mis tareas.
+
+↓
+
+**Funcionalidades**
+
+- Crear tareas.
+- Editar tareas.
+- Eliminar tareas.
+- Completar tareas.
+- Establecer prioridad.
+- Establecer fecha límite.
+
+↓
+
+**Épica**
+
+>Gestión de tareas
+
+↓
+
+**Historia**
+
+>Como usuario, quiero crear una tarea para registrar una actividad que necesito realizar.
+
+↓
+
+**Criterios de aceptación**
+
+- La tarea debe tener un título.
+- El usuario puede crear la tarea desde la interfaz.
+- Una vez creada aparece en la lista de tareas.
+- La nueva tarea comienza como pendiente.
+- El sistema no permite crear una tarea sin título.
+
+↓
+
+**Tareas técnicas**
+
+Aquí sí pueden aparecer cosas como:
+
+- Crear formulario.
+- Validar campos.
+- Crear objeto task.
+- Añadir tarea al array.
+- Renderizar tarea.
+- ...
+
+>**La historia describe QUÉ necesita el usuario. Las tareas describen CÓMO lo vamos a implementar**
+
+## Requisitos no funcionales
+
+**Requisitos funcionales**
+
+>El usuario podrá crear tareas
+
+>El usuario podrá asociar una tarea a un objetivo
+
+**Requisitos no funcionales**
+
+>La aplicación deberá funcionar correctamente en los navegadores modernos definidos para el proyecto
+
+>Los datos deberán mantenerse al recargar la página
+
+>La interfaz deberá ser usable desde dispositivos móviles
+
+>La aplicación deberá cumplir los criterios de accesibilidad establecidos para el proyecto
+
+**"Hacer una aplicación" no significa solamente implementar funcionalidades** 

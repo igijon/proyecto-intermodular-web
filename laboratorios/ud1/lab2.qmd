@@ -10,6 +10,8 @@ title: "UD1 · Lab 2 · Del problema al backlog"
 
 Vamos a revisar el brefing y obtener las necesidades.
 
+>Todos los ejemplos que aquí aparecen son sólo eso, ejemplos. No son los que debéis usar en vuestro proyecto. Tenéis que extraerlos vosotros mismos del briefing.
+
 Por ejemplo:
 
 ```txt
