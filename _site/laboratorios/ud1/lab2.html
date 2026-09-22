@@ -242,6 +242,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul class="collapse">
   <li><a href="#paso-1.-extraemos-necesidades" id="toc-paso-1.-extraemos-necesidades" class="nav-link" data-scroll-target="#paso-1.-extraemos-necesidades">Paso 1. Extraemos necesidades</a></li>
   <li><a href="#paso-2.-identificar-funcionalidaes" id="toc-paso-2.-identificar-funcionalidaes" class="nav-link" data-scroll-target="#paso-2.-identificar-funcionalidaes">Paso 2. Identificar funcionalidaes</a></li>
+  <li><a href="#paso-3.-ia-como-analista-de-lifeos" id="toc-paso-3.-ia-como-analista-de-lifeos" class="nav-link" data-scroll-target="#paso-3.-ia-como-analista-de-lifeos">Paso 3. IA como analista de LifeOS</a></li>
+  <li><a href="#paso-4.-ia-para-encontrar-incoherencias-auditoría-del-análisis" id="toc-paso-4.-ia-para-encontrar-incoherencias-auditoría-del-análisis" class="nav-link" data-scroll-target="#paso-4.-ia-para-encontrar-incoherencias-auditoría-del-análisis">Paso 4. IA para encontrar incoherencias =&gt; auditoría del análisis</a></li>
+  <li><a href="#paso-5.-creamos-las-primeras-historias-utilizando-ia" id="toc-paso-5.-creamos-las-primeras-historias-utilizando-ia" class="nav-link" data-scroll-target="#paso-5.-creamos-las-primeras-historias-utilizando-ia">Paso 5. Creamos las primeras historias utilizando IA</a></li>
+  <li><a href="#resultado-final" id="toc-resultado-final" class="nav-link" data-scroll-target="#resultado-final">Resultado final</a></li>
+  <li><a href="#paso-6.-crea-tu-backlog-en-github" id="toc-paso-6.-crea-tu-backlog-en-github" class="nav-link" data-scroll-target="#paso-6.-crea-tu-backlog-en-github">Paso 6. Crea tu backlog en Github</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -304,6 +309,101 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>├── Editar objetivo</span>
 <span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>├── Asociar tareas</span>
 <span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>└── Consultar progreso</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="paso-3.-ia-como-analista-de-lifeos" class="level2">
+<h2 class="anchored" data-anchor-id="paso-3.-ia-como-analista-de-lifeos">Paso 3. IA como analista de LifeOS</h2>
+<p>Vamos a utilizar un <strong>prompt</strong> muy contextualizado. Modifícalo como consideres oportuno.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode txt code-with-copy"><code class="sourceCode default"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>Actúa como analista de requisitos de una aplicación web llamada LifeOS.</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>LifeOS es una aplicación de planificación personal que permite a una persona gestionar sus tareas y objetivos, organizar sus prioridades y consultar su progreso.</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>Este es el briefing del proyecto:</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>[PEGAR AQUÍ EL BRIEFING REALIZADO POR EL EQUIPO]</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>Estas son las necesidades que hemos identificado:</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>[PEGAR NECESIDADES]</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>Ayúdanos a analizarlas.</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>Para cada necesidad:</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>1. Identifica qué problema del usuario intenta resolver.</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>2. Propón las funcionalidades que debería ofrecer la aplicación.</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>3. Identifica posibles usuarios implicados.</span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>4. Detecta ambigüedades o información que falta.</span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>5. Indica posibles requisitos funcionales.</span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>6. Indica posibles requisitos no funcionales cuando sean relevantes.</span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>No inventes información que no aparezca en el briefing.</span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>No decidas por nosotros.</span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>Si una cuestión requiere información del cliente o del usuario, indícala como pregunta abierta.</span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>Todavía NO redactes historias de usuario.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="paso-4.-ia-para-encontrar-incoherencias-auditoría-del-análisis" class="level2">
+<h2 class="anchored" data-anchor-id="paso-4.-ia-para-encontrar-incoherencias-auditoría-del-análisis">Paso 4. IA para encontrar incoherencias =&gt; auditoría del análisis</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode txt code-with-copy"><code class="sourceCode default"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>Revisa nuestro análisis de requisitos para LifeOS.</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>Necesidades:</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>[...]</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>Funcionalidades:</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>[...]</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>Actúa como un analista que debe encontrar problemas.</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>Identifica:</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>* necesidades que no tienen ninguna funcionalidad asociada;</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>* funcionalidades que no parecen responder a ninguna necesidad;</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>* funcionalidades demasiado grandes;</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>* funcionalidades duplicadas;</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>* funcionalidades ambiguas;</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>* información que deberíamos aclarar;</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>* posibles requisitos que hayamos olvidado.</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>No añadas funcionalidades simplemente porque parezcan interesantes.</span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>Diferencia claramente entre lo que se deduce de la información proporcionada y lo que sería una sugerencia.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<blockquote class="blockquote">
+<p><strong>La IA no sólo sirve para generar; también sirve para revisar nuestro razonamiento</strong></p>
+</blockquote>
+</section>
+<section id="paso-5.-creamos-las-primeras-historias-utilizando-ia" class="level2">
+<h2 class="anchored" data-anchor-id="paso-5.-creamos-las-primeras-historias-utilizando-ia">Paso 5. Creamos las primeras historias utilizando IA</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode txt code-with-copy"><code class="sourceCode default"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>A partir exclusivamente de las funcionalidades validadas de nuestro proyecto LifeOS:</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>[PEGAR FUNCIONALIDADES]</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>Crea historias de usuario siguiendo esta estructura:</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>Como [tipo de usuario],</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>quiero [acción],</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>para [valor que obtengo].</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>Para cada historia:</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>* utiliza lenguaje comprensible para el usuario;</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>* evita describir tecnología o implementación;</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>* asegúrate de que aporta valor;</span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>* indica si consideras que es demasiado grande y podría dividirse;</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>* propone entre 3 y 5 criterios de aceptación verificables.</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>No inventes funcionalidades nuevas.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="resultado-final" class="level2">
+<h2 class="anchored" data-anchor-id="resultado-final">Resultado final</h2>
+<p>Ejemplo (<strong>sólo un ejemplo</strong>)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./images/lab2_1.png" class="img-fluid figure-img"></p>
+<figcaption>Historias de usuario</figcaption>
+</figure>
+</div>
+</section>
+<section id="paso-6.-crea-tu-backlog-en-github" class="level2">
+<h2 class="anchored" data-anchor-id="paso-6.-crea-tu-backlog-en-github">Paso 6. Crea tu backlog en Github</h2>
 
 
 </section>
