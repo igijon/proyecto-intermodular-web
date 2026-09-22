@@ -37,3 +37,46 @@ Son las limitaciones o factores restrictivos que condicionan la ejecución del p
 ![Triángulo de hierro](images/ud1_2.png)
 
 Ejemplo: El presupuesto máximo es de 15.000 €, la fecha de lanzamiento límite es el 15 de diciembre, o la obligación de usar obligatoriamente la tecnología Angular / React.
+
+## Stakeholders
+
+Son todas las **personas, equipos u organizaciones** que se ven afectadas por el proyecto o que tienen interés en su resultado.
+
+*Ejemplo*: El cliente (dueño del negocio), el diseñador UI/UX, el equipo de programadores, el especialista en SEO, e incluso los usuarios finales que navegarán por la web.
+
+## Ciclo de vida de un proyecto web
+
+El ciclo de vida abarca desde que la web es solo una idea hasta que se lanza a internet. Se compone de **6 fases secuenciales** (aunque en entornos ágiles se puede iterar continuamente entre ellas):
+
+1. Inicio → 2. Planificación → 3. Diseño → 4. Desarrollo → 5. Pruebas → 6. Lanzamiento
+
+### 1. Inicio (briefing y viabilidad)
+
+Se define la idea general, se identifican los principales **stakeholders** y se alinean las expectativas. Se aprueba la viabilidad del proyecto mediante un acta de constitución (Project Charter).
+
+
+### 2.  Planificación (definición y estructura)
+
+Se detalla el **alcance**, el calendario (cronograma) y el presupuesto. Aquí se crea el mapa del sitio web (sitemap) y la arquitectura de la información para saber qué páginas tendrá el sitio y cómo se conectarán.
+
+### 3. Diseño (UI/UX)
+
+Se define el aspecto visual de la web. Se crean los wireframes (esquemas en blanco y negro) y posteriormente los prototipos interactivos en alta fidelidad (en herramientas como Figma). Se valida la experiencia de usuario (**UX**) y la interfaz visual (**UI**).
+
+### 4. Desarrollo (Programación)
+
+Los desarrolladores traducen los diseños aprobados en código real.
+
+- **Front-end:** La parte visual con la que interactúa el usuario (HTML, CSS, JavaScript).
+- **Back-end:** La lógica interna, bases de datos, integraciones con pasarelas de pago y el panel de administración (CMS).
+
+### 5. Pruebas (QA/Quality Assurance)
+
+Se testea a fondo la web antes de hacerla pública. Se comprueba que funcione bien en móviles y ordenadores (responsivo), que no haya enlaces rotos, que la velocidad de carga sea óptima y que los formularios envíen la información correctamente.
+
+### 6. Lanzamiento y cierre
+
+La web se traslada al servidor definitivo, se vincula el dominio (ej. tuweb.com) y se indexa en Google. Se entrega la documentación al cliente, se realiza la formación si la requiere y **se cierra formalmente el proyecto**. *(A partir de aquí, la web entra en su fase de mantenimiento y evoluciona como producto).*
+
+# 🛷 De la necesidad al requisito
+

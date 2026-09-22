@@ -9,8 +9,8 @@ title: "Proyecto Intermodular"
 </div>
 
 <div class="home-manifesto">
-<div class="home-manifesto-main">No vienes a aprender un proyecto.<br><strong>Vienes a aprender a construirlo.</strong></div>
 <div class="home-manifesto-meta">Investigación · Diseño · Desarrollo · IA · Comunicación</div>
+<div class="home-manifesto-main">No vienes a aprender un proyecto.<br><strong>Vienes a aprender a construirlo.</strong></div>
 </div>
 
 <div class="home-section-title">Tu espacio de trabajo</div>
@@ -22,8 +22,8 @@ title: "Proyecto Intermodular"
 <div class="home-card-content">
 <div class="home-card-label">APRENDIZAJE</div>
 <div class="home-card-title">Unidades</div>
-<div class="home-card-description">Los conocimientos y habilidades que iremos adquiriendo durante el proyecto.</div>
 <a href="unidades/index.html" class="home-card-link">Ver unidades →</a>
+<div class="home-card-description">Los conocimientos y habilidades que iremos adquiriendo durante el proyecto.</div>
 </div>
 </div>
 

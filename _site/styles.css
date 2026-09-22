@@ -802,3 +802,23 @@
   }
 
 }
+
+
+/* =========================================
+   ENLACES · ROSA
+   ========================================= */
+
+#quarto-content .content a {
+  color: #d63384;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+#quarto-content .content a:hover {
+  color: #b02a6f;
+  border-bottom-color: #b02a6f;
+}
