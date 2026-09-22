@@ -527,5 +527,26 @@
       "📚 Unidades",
       "1-Gestión de proyectos y metodologías ágiles"
     ]
+  },
+  {
+    "objectID": "laboratorios/ud1/lab2.html",
+    "href": "laboratorios/ud1/lab2.html",
+    "title": "UD1 · Lab 2 · Del problema al backlog",
+    "section": "",
+    "text": "El briefing de LifeOS está terminado. Ahora sois el equipo de análisis. Tenéis que convertir necesidades detectadas en el primer Product Backlog del producto\n\n\n\nVamos a revisar el brefing y obtener las necesidades.\nPor ejemplo:\nN1 → Organizar tareas\nN2 → Priorizar tareas\nN3 → Trabajar con objetivos\nN4 → Saber qué tareas están pendientes\nN5 → Consultar progreso\nN6 → No perder la información\n\n\n\nN1\n├── Crear tarea\n├── Editar tarea\n├── Eliminar tarea\n└── Completar tarea\n\nN2\n├── Asignar prioridad\n└── Ordenar por prioridad\n\nN3\n├── Crear objetivo\n├── Editar objetivo\n├── Asociar tareas\n└── Consultar progreso"
+  },
+  {
+    "objectID": "laboratorios/ud1/lab2.html#paso-1.-extraemos-necesidades",
+    "href": "laboratorios/ud1/lab2.html#paso-1.-extraemos-necesidades",
+    "title": "UD1 · Lab 2 · Del problema al backlog",
+    "section": "",
+    "text": "Vamos a revisar el brefing y obtener las necesidades.\nPor ejemplo:\nN1 → Organizar tareas\nN2 → Priorizar tareas\nN3 → Trabajar con objetivos\nN4 → Saber qué tareas están pendientes\nN5 → Consultar progreso\nN6 → No perder la información"
+  },
+  {
+    "objectID": "laboratorios/ud1/lab2.html#paso-2.-identificar-funcionalidaes",
+    "href": "laboratorios/ud1/lab2.html#paso-2.-identificar-funcionalidaes",
+    "title": "UD1 · Lab 2 · Del problema al backlog",
+    "section": "",
+    "text": "N1\n├── Crear tarea\n├── Editar tarea\n├── Eliminar tarea\n└── Completar tarea\n\nN2\n├── Asignar prioridad\n└── Ordenar por prioridad\n\nN3\n├── Crear objetivo\n├── Editar objetivo\n├── Asociar tareas\n└── Consultar progreso"
   }
 ]

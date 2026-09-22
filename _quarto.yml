@@ -20,6 +20,8 @@ website:
         contents: 
           - href: laboratorios/ud1/lab1.qmd
             text: "UD1 · Lab 1 · Del reto al briefing y la viabilidad"
+          - href: laboratorios/ud1/lab2.qmd
+            text: "UD1 · Lab 2 · Del problema al backlog"
     
       - section: "🚀 Desafíos"
         contents:

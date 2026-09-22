@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>UD1. Gestión de proyectos y metodologías ágiles – Proyecto Intermodular</title>
+<title>UD1 · Lab 2 · Del problema al backlog – Proyecto Intermodular</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -25,6 +25,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -87,7 +122,9 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../unidades/ud1/index.html">📚 Unidades</a></li><li class="breadcrumb-item"><a href="../../unidades/ud1/index.html">1-Gestión de proyectos y metodologías ágiles</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      Proyecto Intermodular
+      </li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -129,7 +166,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../unidades/ud1/index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../unidades/ud1/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">1-Gestión de proyectos y metodologías ágiles</span></a>
   </div>
 </li>
@@ -152,8 +189,8 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../laboratorios/ud1/lab2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">UD1 · Lab 2 · Del problema al backlog</span></a>
+  <a href="../../laboratorios/ud1/lab1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">UD1 · Lab 1 · Del reto al briefing y la viabilidad</span></a>
   </div>
 </li>
       </ul>
@@ -203,32 +240,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#proyecto-software" id="toc-proyecto-software" class="nav-link active" data-scroll-target="#proyecto-software">📚 Proyecto software</a>
+  <li><a href="#problema---backlog" id="toc-problema---backlog" class="nav-link active" data-scroll-target="#problema---backlog">🧪 Problema -&gt; Backlog</a>
   <ul class="collapse">
-  <li><a href="#proyecto-vs-producto" id="toc-proyecto-vs-producto" class="nav-link" data-scroll-target="#proyecto-vs-producto">Proyecto vs Producto</a></li>
-  <li><a href="#objetivos-de-un-proyecto-web" id="toc-objetivos-de-un-proyecto-web" class="nav-link" data-scroll-target="#objetivos-de-un-proyecto-web">Objetivos de un proyecto web</a></li>
-  <li><a href="#alcance" id="toc-alcance" class="nav-link" data-scroll-target="#alcance">Alcance</a></li>
-  <li><a href="#entregables" id="toc-entregables" class="nav-link" data-scroll-target="#entregables">Entregables</a></li>
-  <li><a href="#restricciones" id="toc-restricciones" class="nav-link" data-scroll-target="#restricciones">Restricciones</a></li>
-  <li><a href="#stakeholders" id="toc-stakeholders" class="nav-link" data-scroll-target="#stakeholders">Stakeholders</a></li>
-  <li><a href="#ciclo-de-vida-de-un-proyecto-web" id="toc-ciclo-de-vida-de-un-proyecto-web" class="nav-link" data-scroll-target="#ciclo-de-vida-de-un-proyecto-web">Ciclo de vida de un proyecto web</a>
-  <ul class="collapse">
-  <li><a href="#inicio-briefing-y-viabilidad" id="toc-inicio-briefing-y-viabilidad" class="nav-link" data-scroll-target="#inicio-briefing-y-viabilidad">1. Inicio (briefing y viabilidad)</a></li>
-  <li><a href="#planificación-definición-y-estructura" id="toc-planificación-definición-y-estructura" class="nav-link" data-scroll-target="#planificación-definición-y-estructura">2. Planificación (definición y estructura)</a></li>
-  <li><a href="#diseño-uiux" id="toc-diseño-uiux" class="nav-link" data-scroll-target="#diseño-uiux">3. Diseño (UI/UX)</a></li>
-  <li><a href="#desarrollo-programación" id="toc-desarrollo-programación" class="nav-link" data-scroll-target="#desarrollo-programación">4. Desarrollo (Programación)</a></li>
-  <li><a href="#pruebas-qaquality-assurance" id="toc-pruebas-qaquality-assurance" class="nav-link" data-scroll-target="#pruebas-qaquality-assurance">5. Pruebas (QA/Quality Assurance)</a></li>
-  <li><a href="#lanzamiento-y-cierre" id="toc-lanzamiento-y-cierre" class="nav-link" data-scroll-target="#lanzamiento-y-cierre">6. Lanzamiento y cierre</a></li>
-  </ul></li>
-  </ul></li>
-  <li><a href="#de-la-necesidad-al-requisito" id="toc-de-la-necesidad-al-requisito" class="nav-link" data-scroll-target="#de-la-necesidad-al-requisito">🛷 De la necesidad al requisito</a>
-  <ul class="collapse">
-  <li><a href="#necesidad" id="toc-necesidad" class="nav-link" data-scroll-target="#necesidad">Necesidad</a></li>
-  <li><a href="#requisito-funcional-no-funcional" id="toc-requisito-funcional-no-funcional" class="nav-link" data-scroll-target="#requisito-funcional-no-funcional">Requisito funcional / no funcional</a></li>
-  <li><a href="#alcance-1" id="toc-alcance-1" class="nav-link" data-scroll-target="#alcance-1">Alcance</a></li>
-  <li><a href="#épicas" id="toc-épicas" class="nav-link" data-scroll-target="#épicas">Épicas</a></li>
-  <li><a href="#historias-de-usuario" id="toc-historias-de-usuario" class="nav-link" data-scroll-target="#historias-de-usuario">Historias de usuario</a></li>
-  <li><a href="#criterios-de-aceptación" id="toc-criterios-de-aceptación" class="nav-link" data-scroll-target="#criterios-de-aceptación">Criterios de aceptación</a></li>
+  <li><a href="#paso-1.-extraemos-necesidades" id="toc-paso-1.-extraemos-necesidades" class="nav-link" data-scroll-target="#paso-1.-extraemos-necesidades">Paso 1. Extraemos necesidades</a></li>
+  <li><a href="#paso-2.-identificar-funcionalidaes" id="toc-paso-2.-identificar-funcionalidaes" class="nav-link" data-scroll-target="#paso-2.-identificar-funcionalidaes">Paso 2. Identificar funcionalidaes</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -236,9 +251,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../unidades/ud1/index.html">📚 Unidades</a></li><li class="breadcrumb-item"><a href="../../unidades/ud1/index.html">1-Gestión de proyectos y metodologías ágiles</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">UD1. Gestión de proyectos y metodologías ágiles</h1>
+<h1 class="title">UD1 · Lab 2 · Del problema al backlog</h1>
 </div>
 
 
@@ -255,113 +270,39 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="proyecto-software" class="level1">
-<h1>📚 Proyecto software</h1>
-<section id="proyecto-vs-producto" class="level2">
-<h2 class="anchored" data-anchor-id="proyecto-vs-producto">Proyecto vs Producto</h2>
-<p>En el ámbito del software, la diferencia entre ambos radica en la mentalidad, la duración y la forma en que se mide el éxito. Mientras que un <strong>proyecto</strong> es un esfuerzo temporal con un principio y un fin claros, un <strong>producto</strong> es una entidad viva que evoluciona continuamente para generar valor a largo plazo mientras siga siendo útil para sus usuarios.</p>
-<p>Un <strong>proyecto sirve para construir o actualizar un producto.</strong></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/ud1_1.png" class="img-fluid figure-img"></p>
-<figcaption>Tabla proyecto vs Producto</figcaption>
-</figure>
-</div>
+<section id="problema---backlog" class="level1">
+<h1>🧪 Problema -&gt; Backlog</h1>
+<blockquote class="blockquote">
+<p><strong>El briefing de LifeOS está terminado. Ahora sois el equipo de análisis. Tenéis que convertir necesidades detectadas en el primer Product Backlog del producto</strong></p>
+</blockquote>
+<section id="paso-1.-extraemos-necesidades" class="level2">
+<h2 class="anchored" data-anchor-id="paso-1.-extraemos-necesidades">Paso 1. Extraemos necesidades</h2>
+<p>Vamos a revisar el brefing y obtener las necesidades.</p>
+<p>Por ejemplo:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode txt code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>N1 → Organizar tareas</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>N2 → Priorizar tareas</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>N3 → Trabajar con objetivos</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>N4 → Saber qué tareas están pendientes</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>N5 → Consultar progreso</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>N6 → No perder la información</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
-<section id="objetivos-de-un-proyecto-web" class="level2">
-<h2 class="anchored" data-anchor-id="objetivos-de-un-proyecto-web">Objetivos de un proyecto web</h2>
-<p>Son los <strong>resultados medibles</strong> que se esperan conseguir con la creación de la web. Responden a <em>¿para qué?</em> del proyecto.</p>
-<p><em>Ejemplo:</em> Lograr <strong>1.000 ventas mensuales</strong> en la nueva tienda online durante el primer trimestre o reducir un <strong>30% las llamadas de soporte</strong> mediante una sección de ayuda autogestionable.</p>
-</section>
-<section id="alcance" class="level2">
-<h2 class="anchored" data-anchor-id="alcance">Alcance</h2>
-<p>Es el límite del proyecto; define detalladamente todo el trabajo que se va a realizar y, de igual importancia, lo que queda fuera.</p>
-<p>Ejemplo: El alcance incluye el diseño de 5 páginas, pasarela de pago con tarjeta y un blog. No incluye el desarrollo de una app móvil ni la redacción de los textos legales.</p>
-</section>
-<section id="entregables" class="level2">
-<h2 class="anchored" data-anchor-id="entregables">Entregables</h2>
-<p>Son los productos tangibles o verificables que se van generando y presentando a lo largo del proyecto.</p>
-<p>Ejemplo: El documento de arquitectura de información, los wireframes (bocetos de diseño), el código fuente en GitHub, y finalmente, la web publicada y funcional.</p>
-</section>
-<section id="restricciones" class="level2">
-<h2 class="anchored" data-anchor-id="restricciones">Restricciones</h2>
-<p>Son las limitaciones o factores restrictivos que condicionan la ejecución del proyecto. Tradicionalmente forman el “triángulo de hierro” aunque ahora ante la IA hay quien piensa que ya no se cumple del mismo modo.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/ud1_2.png" class="img-fluid figure-img"></p>
-<figcaption>Triángulo de hierro</figcaption>
-</figure>
-</div>
-<p>Ejemplo: El presupuesto máximo es de 15.000 €, la fecha de lanzamiento límite es el 15 de diciembre, o la obligación de usar obligatoriamente la tecnología Angular / React.</p>
-</section>
-<section id="stakeholders" class="level2">
-<h2 class="anchored" data-anchor-id="stakeholders">Stakeholders</h2>
-<p>Son todas las <strong>personas, equipos u organizaciones</strong> que se ven afectadas por el proyecto o que tienen interés en su resultado.</p>
-<p><em>Ejemplo</em>: El cliente (dueño del negocio), el diseñador UI/UX, el equipo de programadores, el especialista en SEO, e incluso los usuarios finales que navegarán por la web.</p>
-</section>
-<section id="ciclo-de-vida-de-un-proyecto-web" class="level2">
-<h2 class="anchored" data-anchor-id="ciclo-de-vida-de-un-proyecto-web">Ciclo de vida de un proyecto web</h2>
-<p>El ciclo de vida abarca desde que la web es solo una idea hasta que se lanza a internet. Se compone de <strong>6 fases secuenciales</strong> (aunque en entornos ágiles se puede iterar continuamente entre ellas):</p>
-<ol type="1">
-<li>Inicio → 2. Planificación → 3. Diseño → 4. Desarrollo → 5. Pruebas → 6. Lanzamiento</li>
-</ol>
-<section id="inicio-briefing-y-viabilidad" class="level3">
-<h3 class="anchored" data-anchor-id="inicio-briefing-y-viabilidad">1. Inicio (briefing y viabilidad)</h3>
-<p>Se define la idea general, se identifican los principales <strong>stakeholders</strong> y se alinean las expectativas. Se aprueba la viabilidad del proyecto mediante un acta de constitución (Project Charter).</p>
-</section>
-<section id="planificación-definición-y-estructura" class="level3">
-<h3 class="anchored" data-anchor-id="planificación-definición-y-estructura">2. Planificación (definición y estructura)</h3>
-<p>Se detalla el <strong>alcance</strong>, el calendario (cronograma) y el presupuesto. Aquí se crea el mapa del sitio web (sitemap) y la arquitectura de la información para saber qué páginas tendrá el sitio y cómo se conectarán.</p>
-</section>
-<section id="diseño-uiux" class="level3">
-<h3 class="anchored" data-anchor-id="diseño-uiux">3. Diseño (UI/UX)</h3>
-<p>Se define el aspecto visual de la web. Se crean los wireframes (esquemas en blanco y negro) y posteriormente los prototipos interactivos en alta fidelidad (en herramientas como Figma). Se valida la experiencia de usuario (<strong>UX</strong>) y la interfaz visual (<strong>UI</strong>).</p>
-</section>
-<section id="desarrollo-programación" class="level3">
-<h3 class="anchored" data-anchor-id="desarrollo-programación">4. Desarrollo (Programación)</h3>
-<p>Los desarrolladores traducen los diseños aprobados en código real.</p>
-<ul>
-<li><strong>Front-end:</strong> La parte visual con la que interactúa el usuario (HTML, CSS, JavaScript).</li>
-<li><strong>Back-end:</strong> La lógica interna, bases de datos, integraciones con pasarelas de pago y el panel de administración (CMS).</li>
-</ul>
-</section>
-<section id="pruebas-qaquality-assurance" class="level3">
-<h3 class="anchored" data-anchor-id="pruebas-qaquality-assurance">5. Pruebas (QA/Quality Assurance)</h3>
-<p>Se testea a fondo la web antes de hacerla pública. Se comprueba que funcione bien en móviles y ordenadores (responsivo), que no haya enlaces rotos, que la velocidad de carga sea óptima y que los formularios envíen la información correctamente.</p>
-</section>
-<section id="lanzamiento-y-cierre" class="level3">
-<h3 class="anchored" data-anchor-id="lanzamiento-y-cierre">6. Lanzamiento y cierre</h3>
-<p>La web se traslada al servidor definitivo, se vincula el dominio (ej. tuweb.com) y se indexa en Google. Se entrega la documentación al cliente, se realiza la formación si la requiere y <strong>se cierra formalmente el proyecto</strong>. <em>(A partir de aquí, la web entra en su fase de mantenimiento y evoluciona como producto).</em></p>
-</section>
-</section>
-</section>
-<section id="de-la-necesidad-al-requisito" class="level1">
-<h1>🛷 De la necesidad al requisito</h1>
-<section id="necesidad" class="level2">
-<h2 class="anchored" data-anchor-id="necesidad">Necesidad</h2>
-<p>La carencia u oportunidad real del usuario o del negocio (por ejemplo: “los clientes necesitan comprar productos sin llamar por teléfono”).</p>
-</section>
-<section id="requisito-funcional-no-funcional" class="level2">
-<h2 class="anchored" data-anchor-id="requisito-funcional-no-funcional">Requisito funcional / no funcional</h2>
-<p><strong>Requisito funcional:</strong> Lo que la aplicación <strong>hace</strong> (por ejemplo: “el sistema debe permitir pagar con tarjeta de crédito”).</p>
-<p><strong>Requisito no funcional:</strong> Cómo se <strong>comporta</strong> la aplicación en términos de calidad (por ejemplo: “la página debe cargar en menos de 2 segundos” o “los datos deben estar cifrados”).</p>
-</section>
-<section id="alcance-1" class="level2">
-<h2 class="anchored" data-anchor-id="alcance-1">Alcance</h2>
-<p>Los límites del proyecto; define exactamente qué se incluye y qué se deja fuera para evitar retrasos.</p>
-</section>
-<section id="épicas" class="level2">
-<h2 class="anchored" data-anchor-id="épicas">Épicas</h2>
-<p>Grandes bloques de trabajo o funcionalidades generales que se dividen en partes más pequeñas (por ejemplo: “Módulo de autenticación de usuarios”)</p>
-</section>
-<section id="historias-de-usuario" class="level2">
-<h2 class="anchored" data-anchor-id="historias-de-usuario">Historias de usuario</h2>
-<p>Pequeñas piezas de valor contadas desde la perspectiva del usuario, usando el formato:</p>
-<p>“Como <em>[rol]</em>, quiero <em>[acción]</em> para <em>[beneficio]</em>”.</p>
-</section>
-<section id="criterios-de-aceptación" class="level2">
-<h2 class="anchored" data-anchor-id="criterios-de-aceptación">Criterios de aceptación</h2>
-<p>Las condiciones específicas que debe cumplir una historia de usuario para darse por buena y terminada (por ejemplo: “el botón de registro se desactiva si el correo es inválido”)</p>
+<section id="paso-2.-identificar-funcionalidaes" class="level2">
+<h2 class="anchored" data-anchor-id="paso-2.-identificar-funcionalidaes">Paso 2. Identificar funcionalidaes</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode txt code-with-copy"><code class="sourceCode default"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>N1</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>├── Crear tarea</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>├── Editar tarea</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>├── Eliminar tarea</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>└── Completar tarea</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>N2</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>├── Asignar prioridad</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>└── Ordenar por prioridad</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>N3</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>├── Crear objetivo</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>├── Editar objetivo</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>├── Asociar tareas</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>└── Consultar progreso</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 
 </section>
