@@ -450,5 +450,82 @@
       "📚 Unidades",
       "1-Gestión de proyectos y metodologías ágiles"
     ]
+  },
+  {
+    "objectID": "unidades/ud1/index.html#necesidad",
+    "href": "unidades/ud1/index.html#necesidad",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "Necesidad",
+    "text": "Necesidad\nLa carencia u oportunidad real del usuario o del negocio (por ejemplo: “los clientes necesitan comprar productos sin llamar por teléfono”).",
+    "crumbs": [
+      "📚 Unidades",
+      "1-Gestión de proyectos y metodologías ágiles"
+    ]
+  },
+  {
+    "objectID": "unidades/ud1/index.html#requisito",
+    "href": "unidades/ud1/index.html#requisito",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "Requisito",
+    "text": "Requisito",
+    "crumbs": [
+      "📚 Unidades",
+      "1-Gestión de proyectos y metodologías ágiles"
+    ]
+  },
+  {
+    "objectID": "unidades/ud1/index.html#requisito-funcional-no-funcional",
+    "href": "unidades/ud1/index.html#requisito-funcional-no-funcional",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "Requisito funcional / no funcional",
+    "text": "Requisito funcional / no funcional\nRequisito funcional: Lo que la aplicación hace (por ejemplo: “el sistema debe permitir pagar con tarjeta de crédito”).\nRequisito no funcional: Cómo se comporta la aplicación en términos de calidad (por ejemplo: “la página debe cargar en menos de 2 segundos” o “los datos deben estar cifrados”).",
+    "crumbs": [
+      "📚 Unidades",
+      "1-Gestión de proyectos y metodologías ágiles"
+    ]
+  },
+  {
+    "objectID": "unidades/ud1/index.html#alcance-1",
+    "href": "unidades/ud1/index.html#alcance-1",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "Alcance",
+    "text": "Alcance\nLos límites del proyecto; define exactamente qué se incluye y qué se deja fuera para evitar retrasos.",
+    "crumbs": [
+      "📚 Unidades",
+      "1-Gestión de proyectos y metodologías ágiles"
+    ]
+  },
+  {
+    "objectID": "unidades/ud1/index.html#épicas",
+    "href": "unidades/ud1/index.html#épicas",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "Épicas",
+    "text": "Épicas\nGrandes bloques de trabajo o funcionalidades generales que se dividen en partes más pequeñas (por ejemplo: “Módulo de autenticación de usuarios”)",
+    "crumbs": [
+      "📚 Unidades",
+      "1-Gestión de proyectos y metodologías ágiles"
+    ]
+  },
+  {
+    "objectID": "unidades/ud1/index.html#historias-de-usuario",
+    "href": "unidades/ud1/index.html#historias-de-usuario",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "Historias de usuario",
+    "text": "Historias de usuario\nPequeñas piezas de valor contadas desde la perspectiva del usuario, usando el formato:\n“Como [rol], quiero [acción] para [beneficio]”.",
+    "crumbs": [
+      "📚 Unidades",
+      "1-Gestión de proyectos y metodologías ágiles"
+    ]
+  },
+  {
+    "objectID": "unidades/ud1/index.html#criterios-de-aceptación",
+    "href": "unidades/ud1/index.html#criterios-de-aceptación",
+    "title": "UD1. Gestión de proyectos y metodologías ágiles",
+    "section": "Criterios de aceptación",
+    "text": "Criterios de aceptación\nLas condiciones específicas que debe cumplir una historia de usuario para darse por buena y terminada (por ejemplo: “el botón de registro se desactiva si el correo es inválido”)",
+    "crumbs": [
+      "📚 Unidades",
+      "1-Gestión de proyectos y metodologías ágiles"
+    ]
   }
 ]

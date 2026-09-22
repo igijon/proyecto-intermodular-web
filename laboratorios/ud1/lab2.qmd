@@ -1,0 +1,43 @@
+---
+title: "UD1 · Lab 2 · Del problema al backlog"
+---
+
+# 🧪 Problema -> Backlog
+
+> **El briefing de LifeOS está terminado. Ahora sois el equipo de análisis. Tenéis que convertir necesidades detectadas en el primer Product Backlog del producto**
+
+## Paso 1. Extraemos necesidades
+
+Vamos a revisar el brefing y obtener las necesidades.
+
+Por ejemplo:
+
+```txt
+N1 → Organizar tareas
+N2 → Priorizar tareas
+N3 → Trabajar con objetivos
+N4 → Saber qué tareas están pendientes
+N5 → Consultar progreso
+N6 → No perder la información
+```
+
+## Paso 2. Identificar funcionalidaes
+
+```txt
+N1
+├── Crear tarea
+├── Editar tarea
+├── Eliminar tarea
+└── Completar tarea
+
+N2
+├── Asignar prioridad
+└── Ordenar por prioridad
+
+N3
+├── Crear objetivo
+├── Editar objetivo
+├── Asociar tareas
+└── Consultar progreso
+```
+

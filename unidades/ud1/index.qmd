@@ -80,3 +80,33 @@ La web se traslada al servidor definitivo, se vincula el dominio (ej. tuweb.com)
 
 # 🛷 De la necesidad al requisito
 
+## Necesidad
+
+La carencia u oportunidad real del usuario o del negocio (por ejemplo: “los clientes necesitan comprar productos sin llamar por teléfono”).
+
+## Requisito funcional / no funcional
+
+**Requisito funcional:** Lo que la aplicación **hace** (por ejemplo: “el sistema debe permitir pagar con tarjeta de crédito”).
+
+**Requisito no funcional:** Cómo se **comporta** la aplicación en términos de calidad (por ejemplo: “la página debe cargar en menos de 2 segundos” o “los datos deben estar cifrados”).
+
+## Alcance
+
+Los límites del proyecto; define exactamente qué se incluye y qué se deja fuera para evitar retrasos.
+
+## Épicas
+
+Grandes bloques de trabajo o funcionalidades generales que se dividen en partes más pequeñas (por ejemplo: “Módulo de autenticación de usuarios”)
+
+## Historias de usuario
+
+Pequeñas piezas de valor contadas desde la perspectiva del usuario, usando el formato:
+
+“Como *[rol]*, quiero *[acción]* para *[beneficio]*”.
+
+## Criterios de aceptación
+
+Las condiciones específicas que debe cumplir una historia de usuario para darse por buena y terminada (por ejemplo: “el botón de registro se desactiva si el correo es inválido”)
+
+
+
