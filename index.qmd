@@ -20,20 +20,20 @@ title: "Proyecto Intermodular"
 <div class="home-card">
 <div class="home-card-icon">📚</div>
 <div class="home-card-content">
-<div class="home-card-label">APRENDIZAJE</div>
-<div class="home-card-title">Unidades</div>
-<a href="unidades/index.html" class="home-card-link">Ver unidades →</a>
-<div class="home-card-description">Los conocimientos y habilidades que iremos adquiriendo durante el proyecto.</div>
+<div class="home-card-label">Módulo</div>
+<div class="home-card-title">Carga lectiva</div>
+<div class="home-card-description">55 horas anuales.</div>
+<div class="home-card-description">1 hora a la semana.</div>
 </div>
 </div>
 
 <div class="home-card">
 <div class="home-card-icon">🧪</div>
 <div class="home-card-content">
-<div class="home-card-label">EXPERIMENTA</div>
-<div class="home-card-title">Laboratorios</div>
-<div class="home-card-description">Experiencias prácticas para desarrollar las habilidades necesarias.</div>
-<a href="laboratorios/index.html" class="home-card-link">Ver laboratorios →</a>
+<div class="home-card-label">RRAAA</div>
+<div class="home-card-title">Resultados de aprendizaje</div>
+<div class="home-card-description">Objetivos que debemos alcanzar para superar el módulo.</div>
+<a href="rraa/index.html" class="home-card-link">Ver RRAA →</a>
 </div>
 </div>
 

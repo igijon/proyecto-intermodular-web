@@ -1,0 +1,14 @@
+---
+title: "Resultados de aprendizaje"
+---
+
+# 🎯 Resultados de aprendizaje
+
+
+| RA      | Resultado de aprendizaje                                                                                                                                   |
+| ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| RA1 | Identifica necesidades del sector productivo relacionándolas con proyectos tipo que las puedan satisfacer.                                             |
+| RA2 | Diseña proyectos relacionados con las competencias expresadas en el título, incluyendo y desarrollando las fases que lo componen.                      |
+| RA3 | Planifica la puesta en funcionamiento o ejecución del proyecto, determinando el plan de intervención y la documentación asociada.                      |
+| RA4 | Define los procedimientos para el seguimiento y control en la ejecución del proyecto, justificando la selección de variables e instrumentos empleados. |
+

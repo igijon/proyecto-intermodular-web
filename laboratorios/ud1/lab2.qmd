@@ -141,3 +141,18 @@ Ejemplo (**sólo un ejemplo**)
 
 ## Paso 6. Crea tu backlog en Github
 
+Vamos a organizar épicas e historias de usuario utilizando **Github Project**
+
+Para ello, vamos a crear un proyecto asociado al repositorio de LifeOS.
+
+![Github Project](./images/lab2_2.png)
+
+Vamos a organizar las **épicas** como **Milestones** de Github. Para ello vamos a nuestro **repositorio -> buscador de issues -> Milestones (crearemos los que necesitemos)**.
+
+Un **milestone** debe tener una descripción y puede tener o no una fecha límite asociada. También se establecerá una barra de progreso que se irá completando cuando se completen las issues asociadas al milestone.
+
+![Milestones](./images/lab2_3.png)
+
+![Historias de usuario](./images/lab2_4.png)
+
+
