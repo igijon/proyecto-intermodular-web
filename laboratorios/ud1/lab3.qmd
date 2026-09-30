@@ -1,0 +1,142 @@
+---
+title: "UD1 · Lab 3 · Elegimos nuestra metodología"
+---
+
+# 🧪 Elegimos nuestra metodología
+
+> **Sois el equipo de desarrollo de LifeOS. Ya conocéis el problema, habéis definido las primeras necesidades y tenéis un backlog inicial. Antes de comenzar a desarrollar, debéis decidir cómo vais a organizar vuestro trabajo.**
+
+## Paso 1. Enfoques propuestos
+
+Tenemos las distintas opciones planteadas:
+
+- **Enfoque tradicional**
+- **Enfoque ágil**:
+  - *Scrum*
+  - *Kanban*
+  - *Scrumban*
+
+>Las metodologías son herramientas... **no religiones**
+
+## Paso 2. Analizamos nuestro proyecto
+
+| Pregunta                                      | Respuesta |
+| --------------------------------------------- | --------- |
+| ¿Tenemos todos los requisitos definidos?      |           |
+| ¿Es probable que aparezcan nuevos requisitos? |           |
+| ¿El producto se puede dividir en incrementos? |           |
+| ¿Podemos obtener feedback frecuente?          |           |
+| ¿Trabajamos en equipo?                        |           |
+| ¿Tenemos un plazo definido?                   |           |
+| ¿Cuánto tiempo tenemos disponible?            |           |
+| ¿Existen dependencias importantes?            |           |
+| ¿Necesitamos mostrar avances periódicamente?  |           |
+| ¿Esperamos cambios durante el desarrollo?     |           |
+
+ 
+
+>**Qué implicación tiene esto para nuestra forma de trabajar**
+
+ 
+Por ejemplo:
+
+ 
+| Situación                         | Consecuencia                        |
+| --------------------------------- | ----------------------------------- |
+| No conocemos todos los requisitos | Necesitamos capacidad de adaptación |
+| Tenemos 4 semanas                 | Necesitamos priorizar               |
+| Trabajamos en equipo              | Necesitamos visibilidad del trabajo |
+| El producto puede crecer          | Necesitamos dividir el trabajo      |
+| Necesitamos entregar un MVP (mínimo producto viable)      | Necesitamos priorizar               |
+
+## Paso 3. Definir criterios de decisión
+
+Ahora debemos establecer **qué características debe tener la metodología que van a elegir**
+
+- Adaptación a cambios.
+  
+- Facilidad para priorizar.
+  
+- Visibilidad del trabajo.
+  
+- Adecuación al trabajo en equipo.
+  
+- Facilidad para hacer entregas incrementales.
+  
+- Facilidad para recibir feedback.
+  
+- Coste organizativo.
+  
+- Adecuación al tamaño del proyecto.
+  
+- Facilidad para utilizarla con GitHub.
+
+> Qué criterios son realmente importantes para nuestro proyecto
+
+
+## Paso 4. Matriz de decisión
+
+| Criterio                   | Importancia | Predictivo | Scrum | Kanban | Híbrido |
+| -------------------------- | ----------: | ---------: | ----: | -----: | ------: |
+| Adaptación a cambios       |        Alta |           |      |       |        |
+| Trabajo en equipo          |        Alta |           |      |       |        |
+| Entregas incrementales     |        Alta |           |      |       |        |
+| Facilidad de planificación |       Media |           |      |       |        |
+| Simplicidad                |       Media |           |      |       |        |
+| Feedback frecuente         |        Alta |           |      |       |        |
+
+>Puntuamos del 1 al 5, justificando las puntuaciones
+
+## Paso 5. IA como consultor metodológico
+
+Una vez hecha la matriz de decisión, podemos pedir a la IA que nos ayude:
+
+```txt
+Actúa como consultor de gestión de proyectos de software.
+
+Nuestro proyecto es LifeOS, una aplicación web para gestionar tareas y objetivos personales.
+
+Estas son las características de nuestro proyecto:
+
+[PEGAR ANÁLISIS]
+
+Estos son los criterios que hemos considerado importantes:
+
+[PEGAR CRITERIOS]
+
+Y esta es nuestra matriz de decisión:
+
+[PEGAR MATRIZ]
+
+Analiza nuestra decisión metodológica.
+
+1. Señala si alguno de nuestros criterios parece poco relevante.
+2. Detecta puntuaciones que parezcan poco justificadas.
+3. Identifica posibles contradicciones.
+4. Señala aspectos del proyecto que no hayamos tenido en cuenta.
+5. Explica qué consecuencias tendría elegir cada alternativa.
+
+No elijas la metodología por nosotros.
+No modifiques nuestra matriz directamente.
+Queremos utilizar tu análisis para revisar nuestra decisión.
+```
+## Paso 6. Elaborar el documento de decisión
+
+Elaboraremos `decision-metodologica.md` con la siguiente plantilla:
+
+```txt
+proyecto-lifeos/
+│
+├── README.md
+│
+└── docs/
+    ├── briefing.md
+    ├── viabilidad.md
+    ├── incertidumbres.md
+    ├── requisitos.md
+    └── decision-metodologica.md
+````
+
+En este documento indicaremos lo que hemos ido rellenando en los apartados anteriores y **finalmente la decisión que más se ajusta al proyecto que tenemos entre manos y por qué**
+
+

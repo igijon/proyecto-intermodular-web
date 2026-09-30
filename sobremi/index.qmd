@@ -1,0 +1,71 @@
+---
+title: "Sobre mí"
+---
+
+<div class="about-hero">
+<div class="about-hero-image">
+<img src="../images/igijon-ia.jpeg" alt="Ilustración de Inma generada con IA">
+</div>
+<div class="about-hero-content">
+<div class="about-eyebrow">SOBRE MÍ</div>
+<h1>Detrás del<br><span>aula.</span></h1>
+<p class="about-lead">
+Soy Inma Gijón, profesora de Sistemas y Aplicaciones Informáticas. Imparto módulos en el Ciclo Formativo de Grado Superior de Desarrollo de Aplicaciones Web y en los Cursos de Especialización de Ciberseguridad y Desarrollo de Aplicaciones en Python.
+</p>
+</div>
+</div>
+
+
+<div class="about-grid">
+
+<div class="about-card">
+<div class="about-card-icon">📧</div>
+<div class="about-card-label">Mail</div>
+<div class="about-card-title">Correo electrónico docente</div>
+<div class="about-card-text">[iigc28@educastillalamancha.es](mailto:iigc28@educastillalamancha.es)
+</div>
+</div>
+
+<div class="about-card">
+<div class="about-card-icon">🐙</div>
+<div class="about-card-label">Github</div>
+<div class="about-card-title">Repositorios</div>
+<div class="about-card-text">
+[igijon](https://github.com/igijon)
+</div>
+</div>
+
+<div class="about-card">
+<div class="about-card-icon">🤖</div>
+<div class="about-card-label">INTELIGENCIA ARTIFICIAL</div>
+<div class="about-card-title">IA como herramienta</div>
+<div class="about-card-text">
+La IA forma parte del proceso de aprendizaje: investigar, explorar alternativas, revisar código, detectar errores y aprender a trabajar con ella de forma profesional.
+</div>
+</div>
+
+<div class="about-card">
+<div class="about-card-icon">🚀</div>
+<div class="about-card-label">PROFESIÓN</div>
+<div class="about-card-title">Preparar para lo que viene</div>
+<div class="about-card-text">
+El objetivo no es aprender una herramienta concreta, sino desarrollar una forma de trabajar que permita seguir aprendiendo cuando las herramientas cambien.
+</div>
+</div>
+
+</div>
+
+<div class="about-quote">
+<div class="about-quote-mark">“</div>
+<div class="about-quote-text">
+Transformando la tecnología.<br>
+Creando experiencias de aprendizaje.
+</div>
+</div>
+
+<div class="about-footer">
+<div class="about-footer-label">EN ESTE ESPACIO</div>
+<p>
+Encontrarás los materiales, proyectos, retos y recursos que utilizaremos durante el módulo.
+</p>
+</div>

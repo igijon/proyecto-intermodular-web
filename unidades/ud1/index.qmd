@@ -254,3 +254,111 @@ Aquí sí pueden aparecer cosas como:
 >La aplicación deberá cumplir los criterios de accesibilidad establecidos para el proyecto
 
 **"Hacer una aplicación" no significa solamente implementar funcionalidades** 
+
+# ❔ ¿Cómo gestionamos el proyecto?
+
+## Modelo predictivo/tradicional
+
+Un **modelo predictivo o tradicional** es un enfoque de trabajo secuencial donde se planifica todo el proyecto en detalle antes de comenzar la fase de desarrollo.
+
+También se le conoce como modelo en *cascada o Waterfall*. Su nombre se debe a que el objetivo principal es predecir y controlar de antemano el alcance, el tiempo y los costos.
+
+### Características principales
+
+• **Fases secuenciales**: El proyecto avanza por etapas cerradas y ordenadas (por ejemplo: análisis, diseño, codificación, pruebas y despliegue). No se pasa a la siguiente fase sin terminar la anterior.
+• **Requisitos estables**: Se ASUME que los requerimientos del cliente están claros desde el primer día y que cambiarán muy poco durante el proceso.
+• **Entregas al final**: El cliente no ve el software funcionando hasta que concluyen todas las fases del ciclo.
+• **Control de cambios rígido**: Cualquier modificación posterior en lo que el cliente pidió afecta directamente al tiempo y al presupuesto acordados.
+
+### Cuándo es útil este modelo
+
+• Cuando **los requisitos del sistema son fijos**, muy conocidos y es poco probable que sufran modificaciones.
+• Cuando se cuenta con una **documentación muy detallada** y un equipo que domina por completo la tecnología.
+• En proyectos donde un error posterior cuesta demasiado dinero o afecta a normativas legales estrictas (como sistemas de aviación o dispositivos médicos).
+
+## Enfoques ágiles. Manifiesto ágil
+
+En la gestión de proyectos de software, los **enfoques ágiles** son metodologías basadas en el desarrollo iterativo e incremental, diseñadas para responder rápidamente a los cambios del mercado y a los requisitos del cliente.
+
+A diferencia del modelo predictivo (donde todo se planifica al inicio), en la agilidad el software se construye en pequeños bloques o ciclos de trabajo (llamados **sprints** o iteraciones) que entregan valor funcional de forma continua.
+
+El origen de estos enfoques se formalizó en el **Manifiesto Ágil (Agile Manifesto)**, un documento redactado en 2001 por 17 expertos en software en Utah, EE. UU., para contrarrestar la rigidez de los modelos tradicionales.
+
+### Los cuatro valores del Manifiesto Ágil
+
+El manifiesto no propone reglas rígidas, sino una mentalidad basada en cuatro pilares fundamentales:
+
+• **Individuos e interacciones** por encima de procesos y herramientas. El talento y la comunicación del equipo importan más que seguir un manual estricto.
+
+• **Software funcionando** por encima de documentación exhaustiva. Es más valioso entregar un producto que sirva a redactar cientos de páginas de manuales que nadie leerá.
+
+• **Colaboración con el cliente** por encima de negociación contractual. El cliente es un socio que participa activamente en el día a día, no alguien con quien solo se habla de contratos.
+
+• **Respuesta ante el cambio** por encima de seguir un plan. El cambio se acepta como una ventaja competitiva en lugar de verse como un obstáculo.
+
+### Diferencias clave: Predictivo vs Agile
+
+![Comparativa](./images/ud1_4.png)
+
+## Scrum. Kanban.
+
+**Scrum y Kanban** son los dos marcos de trabajo (frameworks) ágiles más utilizados en el desarrollo de software. Ambos sirven para implementar los valores del Manifiesto Ágil, pero lo hacen con filosofías y reglas operativas muy diferentes.
+
+### Scrum: ritmo y roles estrictos.
+
+**Scrum** es un marco estructurado y basado en el tiempo. Divide el trabajo en ciclos fijos llamados **Sprints** (que duran entre 1 y 4 semanas). Al final de cada sprint, el equipo debe entregar una versión del software que funcione.
+
+- **Roles clave**:
+  - **Product Owner** (Dueño del Producto): Define qué se debe construir y prioriza la lista de tareas (Product Backlog).
+  - **Scrum Master**: Facilita el proceso, elimina los obstáculos del equipo y asegura que se sigan las prácticas de Scrum.
+  - **Developers** (Equipo de Desarrollo): Las personas que construyen técnicamente el producto.
+
+- **Eventos/Reuniones**: Cada sprint tiene 4 eventos obligatorios: 
+  - **la Planning** (planificación), 
+  - **la Daily** (sincronización diaria de 15 minutos), 
+  - **la Review** (demostración del software al cliente) y 
+  - **la Retrospective** (análisis interno para mejorar).
+
+![Scrum](./images/ud1_5.png)
+
+### Kanban: flujo continuo y visual
+
+**Kanban** es un método flexible y enfocado en el flujo continuo. No utiliza cajones de tiempo fijos (sprints), sino que el trabajo fluye constantemente a través de un tablero visual. Su objetivo es optimizar la velocidad con la que las tareas pasan del inicio al final.
+
+• **El Tablero Kanban**: Se divide en columnas que representan los estados del trabajo (por ejemplo: Por hacer, En desarrollo, En pruebas, Listo). Las tareas se mueven de izquierda a derecha.
+• **Límites de WIP** (Work in Progress): Es la regla de oro de Kanban. Se restringe el número máximo de tareas que pueden estar en una columna a la vez. Esto evita que el equipo se sature y ayuda a detectar cuellos de botella de inmediato.
+• **Roles y Reuniones**: No impone roles fijos ni reuniones obligatorias. Se adapta a la estructura que el equipo ya tenga.
+
+### Scrum vs Kanban
+
+![Scrum](./images/ud1_6.png)
+
+## Enfoque híbrido
+
+**Scrumban** es, en esencia, un enfoque híbrido pero dentro del propio mundo ágil. Nació originalmente como una estrategia de transición para ayudar a los equipos a pasar de Scrum a Kanban, pero demostró ser tan eficiente que se convirtió en un marco de trabajo propio.
+
+Combina **la estructura y las reuniones de Scrum** con la **flexibilidad y el flujo continuo de Kanban**, tomando lo mejor de ambos mundos.
+
+### Mecánica de Scrumban
+
+En lugar de elegir entre la rigidez de los Sprints o la total apertura de Kanban, **Scrumban** establece un término medio muy inteligente:
+
+• **El Tablero con Límites (de Kanban)**: El equipo visualiza todo su trabajo en columnas y aplica límites de WIP (Trabajo en Progreso). Esto evita la sobrecarga y los cuellos de botella.
+
+• **Planificación a Demanda (Pull-based)**: A diferencia de Scrum, donde te comprometes a un paquete cerrado de tareas durante 2 semanas, en Scrumban se usa el sistema Pull. Cuando la columna de tareas "Por Hacer" se está quedando vacía (llega a un límite mínimo), se convoca una reunión rápida de *planificación* para rellenarla con prioridades del Backlog.
+
+• **Sin Roles Estrictos (de Kanban)**: No es obligatorio tener un Scrum Master o un Product Owner dedicados en exclusividad, aunque muchos equipos deciden mantenerlos si les funciona.
+
+• **Eventos para la Mejora (de Scrum)**: Se mantienen las reuniones diarias (Daily) para sincronizarse y las Retrospectivas periódicas para analizar cómo mejorar el proceso.
+
+### ¿Cuándo brilla realmente Scrumban?
+
+Scrumban es la solución ideal para escenarios donde **Scrum se siente demasiado rígido y Kanban demasiado caótico**. Es perfecto para:
+
+• **Proyectos de Mantenimiento y Evolutivos**: Equipos que desarrollan nuevas funcionalidades (desarrollo puro) pero que al mismo tiempo deben atender errores urgentes o soporte técnico del día a día.
+
+• **Proyectos en Fase de Lanzamiento o Estabilización**: Cuando el software ya está en producción y surgen cambios e imprevistos constantemente que no pueden esperar a que termine un Sprint de dos semanas.
+
+• **Equipos Saturados por las Reuniones**: Equipos que sienten que pierden demasiado tiempo estimando tareas en puntos de historia (Story Points) o planificando Sprints que luego nunca se cumplen por culpa de las interrupciones del negocio.
+
+![Scrum](./images/ud1_7.png)

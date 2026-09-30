@@ -3,10 +3,16 @@ title: "Proyecto Intermodular"
 ---
 
 <div class="home-hero">
+<div class="home-hero-content">
 <div class="home-eyebrow">PROYECTO INTERMODULAR · DAW</div>
 <h1>Aprender.<br><span>Construir.</span></h1>
 <p>Un espacio para investigar, diseñar, desarrollar y presentar soluciones reales trabajando como un equipo profesional.</p>
 </div>
+<div class="home-hero-image">
+<img src="images/proyecto.jpg" alt="Proyecto intermodular">
+</div>
+</div>
+
 
 <div class="home-manifesto">
 <div class="home-manifesto-meta">Investigación · Diseño · Desarrollo · IA · Comunicación</div>
