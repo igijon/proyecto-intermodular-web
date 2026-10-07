@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>UD1 · Lab 3 · Elegimos nuestra metodología – Proyecto Intermodular</title>
+<title>UD1 · Lab 4 · SCRUM en acción – Proyecto Intermodular</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -25,41 +25,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -122,7 +87,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../laboratorios/ud1/lab1.html">🧪 Laboratorios</a></li><li class="breadcrumb-item"><a href="../../laboratorios/ud1/lab3.html">UD1 · Lab 3 · Elejimos nuestra metodología</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../laboratorios/ud1/lab1.html">🧪 Laboratorios</a></li><li class="breadcrumb-item"><a href="../../laboratorios/ud1/lab4.html">UD1 · Lab 4 · Scrum en acción</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -193,13 +158,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../laboratorios/ud1/lab3.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../laboratorios/ud1/lab3.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">UD1 · Lab 3 · Elejimos nuestra metodología</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../laboratorios/ud1/lab4.html" class="sidebar-item-text sidebar-link">
+  <a href="../../laboratorios/ud1/lab4.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">UD1 · Lab 4 · Scrum en acción</span></a>
   </div>
 </li>
@@ -256,14 +221,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#elegimos-nuestra-metodología" id="toc-elegimos-nuestra-metodología" class="nav-link active" data-scroll-target="#elegimos-nuestra-metodología">🧪 Elegimos nuestra metodología</a>
+  <li><a href="#situación" id="toc-situación" class="nav-link active" data-scroll-target="#situación">🧪 Situación</a>
   <ul class="collapse">
-  <li><a href="#paso-1.-enfoques-propuestos" id="toc-paso-1.-enfoques-propuestos" class="nav-link" data-scroll-target="#paso-1.-enfoques-propuestos">Paso 1. Enfoques propuestos</a></li>
-  <li><a href="#paso-2.-analizamos-nuestro-proyecto" id="toc-paso-2.-analizamos-nuestro-proyecto" class="nav-link" data-scroll-target="#paso-2.-analizamos-nuestro-proyecto">Paso 2. Analizamos nuestro proyecto</a></li>
-  <li><a href="#paso-3.-definir-criterios-de-decisión" id="toc-paso-3.-definir-criterios-de-decisión" class="nav-link" data-scroll-target="#paso-3.-definir-criterios-de-decisión">Paso 3. Definir criterios de decisión</a></li>
-  <li><a href="#paso-4.-matriz-de-decisión" id="toc-paso-4.-matriz-de-decisión" class="nav-link" data-scroll-target="#paso-4.-matriz-de-decisión">Paso 4. Matriz de decisión</a></li>
-  <li><a href="#paso-5.-ia-como-consultor-metodológico" id="toc-paso-5.-ia-como-consultor-metodológico" class="nav-link" data-scroll-target="#paso-5.-ia-como-consultor-metodológico">Paso 5. IA como consultor metodológico</a></li>
-  <li><a href="#paso-6.-elaborar-el-documento-de-decisión" id="toc-paso-6.-elaborar-el-documento-de-decisión" class="nav-link" data-scroll-target="#paso-6.-elaborar-el-documento-de-decisión">Paso 6. Elaborar el documento de decisión</a></li>
+  <li><a href="#fase-1.-formamos-el-equipo-scrum" id="toc-fase-1.-formamos-el-equipo-scrum" class="nav-link" data-scroll-target="#fase-1.-formamos-el-equipo-scrum">Fase 1. Formamos el equipo Scrum</a></li>
+  </ul></li>
+  <li><a href="#fase-2.-partimos-del-product-backlog" id="toc-fase-2.-partimos-del-product-backlog" class="nav-link" data-scroll-target="#fase-2.-partimos-del-product-backlog">Fase 2. Partimos del Product Backlog</a></li>
+  <li><a href="#fase-3.-definimos-el-sprint-goal" id="toc-fase-3.-definimos-el-sprint-goal" class="nav-link" data-scroll-target="#fase-3.-definimos-el-sprint-goal">Fase 3. Definimos el Sprint Goal</a></li>
+  <li><a href="#fase-4.-construimos-el-sprint-backlog" id="toc-fase-4.-construimos-el-sprint-backlog" class="nav-link" data-scroll-target="#fase-4.-construimos-el-sprint-backlog">Fase 4. Construimos el Sprint Backlog</a></li>
+  <li><a href="#fase-5.-definición-of-done" id="toc-fase-5.-definición-of-done" class="nav-link" data-scroll-target="#fase-5.-definición-of-done">Fase 5. Definición of Done</a></li>
+  <li><a href="#fase-6.-estimamos-las-historias" id="toc-fase-6.-estimamos-las-historias" class="nav-link" data-scroll-target="#fase-6.-estimamos-las-historias">Fase 6. Estimamos las historias</a>
+  <ul class="collapse">
+  <li><a href="#cuánto-trabajo-puede-asumir-el-equipo" id="toc-cuánto-trabajo-puede-asumir-el-equipo" class="nav-link" data-scroll-target="#cuánto-trabajo-puede-asumir-el-equipo">¿Cuánto trabajo puede asumir el equipo?</a></li>
+  <li><a href="#entonces-cuánto-metemos-en-el-sprint" id="toc-entonces-cuánto-metemos-en-el-sprint" class="nav-link" data-scroll-target="#entonces-cuánto-metemos-en-el-sprint">Entonces, ¿Cuánto metemos en el sprint?</a></li>
+  <li><a href="#descomponemos-las-historias-en-subtareas-y-estimamos-cada-subtarea-en-horas-aprox" id="toc-descomponemos-las-historias-en-subtareas-y-estimamos-cada-subtarea-en-horas-aprox" class="nav-link" data-scroll-target="#descomponemos-las-historias-en-subtareas-y-estimamos-cada-subtarea-en-horas-aprox">Descomponemos las historias en subtareas y estimamos cada subtarea en horas aprox</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -271,9 +241,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../laboratorios/ud1/lab1.html">🧪 Laboratorios</a></li><li class="breadcrumb-item"><a href="../../laboratorios/ud1/lab3.html">UD1 · Lab 3 · Elejimos nuestra metodología</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../laboratorios/ud1/lab1.html">🧪 Laboratorios</a></li><li class="breadcrumb-item"><a href="../../laboratorios/ud1/lab4.html">UD1 · Lab 4 · Scrum en acción</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">UD1 · Lab 3 · Elegimos nuestra metodología</h1>
+<h1 class="title">UD1 · Lab 4 · SCRUM en acción</h1>
 </div>
 
 
@@ -290,257 +260,262 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="elegimos-nuestra-metodología" class="level1">
-<h1>🧪 Elegimos nuestra metodología</h1>
+<section id="situación" class="level1">
+<h1>🧪 Situación</h1>
 <blockquote class="blockquote">
-<p><strong>Sois el equipo de desarrollo de LifeOS. Ya conocéis el problema, habéis definido las primeras necesidades y tenéis un backlog inicial. Antes de comenzar a desarrollar, debéis decidir cómo vais a organizar vuestro trabajo.</strong></p>
+<p>El equipo de LifeOS ya dispone de un conjunto inicial de historias de usuario y ha decidido cómo organizar su trabajo.</p>
+<p>Ahora debe afrontar su primer Sprint.</p>
+<p>Vuestro objetivo no es aprenderse Scrum, sino <strong>expermientar cómo se organiza un equipo que trabaja con Scrum y tomar decisiones como un equipo profesional de desarrollo</strong></p>
+<p><strong>NOTA: Si has elegido otra metodología para el primer desafío, adaptaremos este laboratorio a dicha metodología</strong></p>
 </blockquote>
-<section id="paso-1.-enfoques-propuestos" class="level2">
-<h2 class="anchored" data-anchor-id="paso-1.-enfoques-propuestos">Paso 1. Enfoques propuestos</h2>
-<p>Tenemos las distintas opciones planteadas:</p>
+<section id="fase-1.-formamos-el-equipo-scrum" class="level2">
+<h2 class="anchored" data-anchor-id="fase-1.-formamos-el-equipo-scrum">Fase 1. Formamos el equipo Scrum</h2>
+<p><strong>Product Owner</strong></p>
+<p>Se encarga de:</p>
 <ul>
-<li><strong>Enfoque tradicional</strong></li>
-<li><strong>Enfoque ágil</strong>:
-<ul>
-<li><em>Scrum</em></li>
-<li><em>Kanban</em></li>
-<li><em>Scrumban</em></li>
-</ul></li>
+<li>Representar las necesidades del producto</li>
+<li>Ordenar el product backlog</li>
+<li>Decidir qué aporta más valor</li>
+<li>Aclarar dudas sobre las historias</li>
+<li>Decidir qué debe abordarse primero (prioridades)</li>
 </ul>
 <blockquote class="blockquote">
-<p>Las metodologías son herramientas… <strong>no religiones</strong></p>
+<p>Product Owner no significa <em>jefe de equipo</em></p>
+</blockquote>
+<p><strong>Scrum Master</strong></p>
+<p>Se encarga de:</p>
+<ul>
+<li>Ayudar a que Scrum se utilice correctamente</li>
+<li>Facilitar las reuniones</li>
+<li>Detectar impedimentos</li>
+<li>Ayudar al equipo a mejorar su forma de trabajar</li>
+<li>Evitar que el equipo se bloquee por problemas organizativos</li>
+</ul>
+<blockquote class="blockquote">
+<p>Tampoco es el <em>jefe de equipo</em></p>
+</blockquote>
+<p><strong>Developers</strong></p>
+<p>Son las personas responsables de construir el <strong>incremento</strong>.</p>
+<p>Deciden:</p>
+<ul>
+<li>Cómo realizar el trabajo</li>
+<li>Cómo dividir las historias</li>
+<li>Qué tareas necesitan</li>
+<li>Cómo organizarse</li>
+<li>Cuánto trabajo pueden asumir</li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>¿Quién decide cuántas historias entran en el Sprint?</strong></p>
 </blockquote>
 </section>
-<section id="paso-2.-analizamos-nuestro-proyecto" class="level2">
-<h2 class="anchored" data-anchor-id="paso-2.-analizamos-nuestro-proyecto">Paso 2. Analizamos nuestro proyecto</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Pregunta</th>
-<th>Respuesta</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>¿Tenemos todos los requisitos definidos?</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>¿Es probable que aparezcan nuevos requisitos?</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>¿El producto se puede dividir en incrementos?</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>¿Podemos obtener feedback frecuente?</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>¿Trabajamos en equipo?</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>¿Tenemos un plazo definido?</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>¿Cuánto tiempo tenemos disponible?</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>¿Existen dependencias importantes?</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>¿Necesitamos mostrar avances periódicamente?</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>¿Esperamos cambios durante el desarrollo?</td>
-<td></td>
-</tr>
-</tbody>
-</table>
+</section>
+<section id="fase-2.-partimos-del-product-backlog" class="level1">
+<h1>Fase 2. Partimos del Product Backlog</h1>
+<p>Utilizamos las historias creadas en el laboratorio correspondiente.</p>
+<p>El Product Owner tendrá que ordenarlo y para ello debe preguntarse:</p>
+<ul>
+<li>¿Qué necesita primero el usuario?</li>
+<li>¿Qué funcionalidad aporta más valor?</li>
+<li>¿Hay funcionalidades que dependan de otras?</li>
+<li>¿Qué nos permite obtener antes un producto usable?</li>
+<li>¿Qué historias deberían formar parte del MVP?</li>
+</ul>
+</section>
+<section id="fase-3.-definimos-el-sprint-goal" class="level1">
+<h1>Fase 3. Definimos el Sprint Goal</h1>
+<p>El equipo <strong>no empieza seleccionando historias al azar</strong></p>
 <blockquote class="blockquote">
-<p><strong>Qué implicación tiene esto para nuestra forma de trabajar</strong></p>
+<p><strong>Objetivo -&gt;</strong> ¿Qué queremos conseguir con este Sprint?</p>
 </blockquote>
+<p>Por ejemplo: <strong>Sprint Goal</strong>: permitir que un usuario pueda gestionar sus tareas básicas en LifeOS.</p>
+<p>A partir de este objetivo podrían entrar:</p>
+<ul>
+<li>Crear tarea</li>
+<li>Editar tarea</li>
+<li>Marcar tarea como completada</li>
+<li>Asignar prioridad</li>
+</ul>
+</section>
+<section id="fase-4.-construimos-el-sprint-backlog" class="level1">
+<h1>Fase 4. Construimos el Sprint Backlog</h1>
+<p>Ahora los developers seleccionan las historias que consideran viables y las descomponen</p>
 <p>Por ejemplo:</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 48%">
-<col style="width: 51%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Situación</th>
-<th>Consecuencia</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>No conocemos todos los requisitos</td>
-<td>Necesitamos capacidad de adaptación</td>
-</tr>
-<tr class="even">
-<td>Tenemos 4 semanas</td>
-<td>Necesitamos priorizar</td>
-</tr>
-<tr class="odd">
-<td>Trabajamos en equipo</td>
-<td>Necesitamos visibilidad del trabajo</td>
-</tr>
-<tr class="even">
-<td>El producto puede crecer</td>
-<td>Necesitamos dividir el trabajo</td>
-</tr>
-<tr class="odd">
-<td>Necesitamos entregar un MVP (mínimo producto viable)</td>
-<td>Necesitamos priorizar</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="paso-3.-definir-criterios-de-decisión" class="level2">
-<h2 class="anchored" data-anchor-id="paso-3.-definir-criterios-de-decisión">Paso 3. Definir criterios de decisión</h2>
-<p>Ahora debemos establecer <strong>qué características debe tener la metodología que van a elegir</strong></p>
+<p><strong>US-01-Crear una tarea</strong></p>
+<p>Podría tener subtareas como:</p>
 <ul>
-<li><p>Adaptación a cambios.</p></li>
-<li><p>Facilidad para priorizar.</p></li>
-<li><p>Visibilidad del trabajo.</p></li>
-<li><p>Adecuación al trabajo en equipo.</p></li>
-<li><p>Facilidad para hacer entregas incrementales.</p></li>
-<li><p>Facilidad para recibir feedback.</p></li>
-<li><p>Coste organizativo.</p></li>
-<li><p>Adecuación al tamaño del proyecto.</p></li>
-<li><p>Facilidad para utilizarla con GitHub.</p></li>
+<li>Diseñar formulario</li>
+<li>Validar formulario</li>
+<li>Crear objeto <code>Tarea</code></li>
+<li>Implementar creación</li>
+<li>Mostrar tarea en el listado</li>
+<li>Probar creación</li>
+<li>Revisar criterios de aceptación…</li>
+</ul>
+<p>En Github Projects vamos a establecer los siguientes paneles:</p>
+<p><strong>Backlog</strong>: Todas las historias de usuario <strong>To Do</strong>: Historias de usuario ya priorizadas y ordenadas para el Sprint, analizadas y definidas sus subtareas. <strong>In Progress</strong>: Tareas en Progreso <strong>Review</strong>: Tareas en revisión <strong>Done Sprint X</strong>: Tareas que se han finalizado en el sprint correspondiente</p>
+</section>
+<section id="fase-5.-definición-of-done" class="level1">
+<h1>Fase 5. Definición of Done</h1>
+<blockquote class="blockquote">
+<p>¿Cuándo podemos afirmar que una historia está realmente terminada?</p>
+</blockquote>
+<p>Cada equiipo crea su propia <strong>Definition of Done</strong>.</p>
+<p>Por ejemplo:</p>
+<p>Una historia se puede considerar Done cuando:</p>
+<ul>
+<li>Cumple todos los criterios de aceptación</li>
+<li>Está implementada</li>
+<li>Está probada</li>
+<li>No existen errores conocidos que impidan su uso</li>
+<li>El código está integrado en el repositorio</li>
+<li>Ha sido revisada por otro miembro del equipo</li>
+<li>La documentación necesaria está actualizada</li>
 </ul>
 <blockquote class="blockquote">
-<p>Qué criterios son realmente importantes para nuestro proyecto</p>
+<p>Definition of Done != Hemos terminado de programar</p>
 </blockquote>
 </section>
-<section id="paso-4.-matriz-de-decisión" class="level2">
-<h2 class="anchored" data-anchor-id="paso-4.-matriz-de-decisión">Paso 4. Matriz de decisión</h2>
+<section id="fase-6.-estimamos-las-historias" class="level1">
+<h1>Fase 6. Estimamos las historias</h1>
+<p>Vamos a introducir <strong>Story Points</strong></p>
+<p>Los puntos representan <strong>esfuerzo relativo</strong>, teniendo en cuenta:</p>
+<ul>
+<li>Complejidad</li>
+<li>Cantidad de trabajo</li>
+<li>Incertidumbre</li>
+<li>Dependencias</li>
+</ul>
+<p>Podemos hacer algo parecido a esto:</p>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 40%">
-<col style="width: 16%">
-<col style="width: 15%">
-<col style="width: 7%">
-<col style="width: 9%">
-<col style="width: 10%">
-</colgroup>
 <thead>
 <tr class="header">
-<th>Criterio</th>
-<th style="text-align: right;">Importancia</th>
-<th style="text-align: right;">Predictivo</th>
-<th style="text-align: right;">Scrum</th>
-<th style="text-align: right;">Kanban</th>
-<th style="text-align: right;">Híbrido</th>
+<th>Historia</th>
+<th style="text-align: right;">Estimación</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Adaptación a cambios</td>
-<td style="text-align: right;">Alta</td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
+<td>Crear tarea</td>
+<td style="text-align: right;">3 SP</td>
 </tr>
 <tr class="even">
-<td>Trabajo en equipo</td>
-<td style="text-align: right;">Alta</td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
+<td>Marcar tarea como completada</td>
+<td style="text-align: right;">2 SP</td>
 </tr>
 <tr class="odd">
-<td>Entregas incrementales</td>
-<td style="text-align: right;">Alta</td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
+<td>Editar tarea</td>
+<td style="text-align: right;">3 SP</td>
 </tr>
 <tr class="even">
-<td>Facilidad de planificación</td>
-<td style="text-align: right;">Media</td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
+<td>Asignar prioridad</td>
+<td style="text-align: right;">2 SP</td>
 </tr>
 <tr class="odd">
-<td>Simplicidad</td>
-<td style="text-align: right;">Media</td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
+<td>Crear objetivo</td>
+<td style="text-align: right;">5 SP</td>
 </tr>
 <tr class="even">
-<td>Feedback frecuente</td>
-<td style="text-align: right;">Alta</td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
+<td>Asociar tarea a objetivo</td>
+<td style="text-align: right;">5 SP</td>
+</tr>
+<tr class="odd">
+<td>Filtrar tareas</td>
+<td style="text-align: right;">3 SP</td>
+</tr>
+<tr class="even">
+<td>Visualizar progreso</td>
+<td style="text-align: right;">8 SP</td>
 </tr>
 </tbody>
 </table>
+<p>Si se trabaja en grupo, se puede establecer una <strong>Planning Poker</strong>, cada developer estima individualmente y luego comparan:</p>
 <blockquote class="blockquote">
-<p>Puntuamos del 1 al 5, justificando las puntuaciones</p>
+<p>Ana: 3 Luis: 5 Marta: 3</p>
 </blockquote>
+<p>Tienen que <strong>justificar su puntuaciñon</strong></p>
+<section id="cuánto-trabajo-puede-asumir-el-equipo" class="level3">
+<h3 class="anchored" data-anchor-id="cuánto-trabajo-puede-asumir-el-equipo">¿Cuánto trabajo puede asumir el equipo?</h3>
+<p>Aquí aparece la <strong>capacidad</strong></p>
+<p>Supongamos que:</p>
+<ul>
+<li>Sprint: 1 semana</li>
+<li>3 developers</li>
+<li>Cada developer dispone aprox de 20 horas para el proyecto.</li>
+<li>Capacidad teórica: 60horas</li>
+</ul>
+<p>No significa que puedan dedicar 60 horas exclusivamente a desarrollar porque hay reuniones, incidencias, revisiones…</p>
+<p>Podemos estimar una <strong>capacidad efectiva</strong>, por ejemplo: <strong>60h x 80% = 48 horas</strong></p>
+<blockquote class="blockquote">
+<p>Capacidad en horas != Story Points</p>
+</blockquote>
+<p>Los puntos son relativos y para el primer sprint no se conoce aún la <strong>velocidad del equipo</strong></p>
 </section>
-<section id="paso-5.-ia-como-consultor-metodológico" class="level2">
-<h2 class="anchored" data-anchor-id="paso-5.-ia-como-consultor-metodológico">Paso 5. IA como consultor metodológico</h2>
-<p>Una vez hecha la matriz de decisión, podemos pedir a la IA que nos ayude:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode txt code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>Actúa como consultor de gestión de proyectos de software.</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>Nuestro proyecto es LifeOS, una aplicación web para gestionar tareas y objetivos personales.</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>Estas son las características de nuestro proyecto:</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>[PEGAR ANÁLISIS]</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>Estos son los criterios que hemos considerado importantes:</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>[PEGAR CRITERIOS]</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>Y esta es nuestra matriz de decisión:</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>[PEGAR MATRIZ]</span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>Analiza nuestra decisión metodológica.</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>1. Señala si alguno de nuestros criterios parece poco relevante.</span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>2. Detecta puntuaciones que parezcan poco justificadas.</span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>3. Identifica posibles contradicciones.</span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>4. Señala aspectos del proyecto que no hayamos tenido en cuenta.</span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>5. Explica qué consecuencias tendría elegir cada alternativa.</span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>No elijas la metodología por nosotros.</span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>No modifiques nuestra matriz directamente.</span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>Queremos utilizar tu análisis para revisar nuestra decisión.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<section id="entonces-cuánto-metemos-en-el-sprint" class="level3">
+<h3 class="anchored" data-anchor-id="entonces-cuánto-metemos-en-el-sprint">Entonces, ¿Cuánto metemos en el sprint?</h3>
+<p>Teniendo en cuenta que tenemos el Backlog ordenado y vamos puntuando las historias que permiten conseguir nuestro <strong>Sprint Goal</strong>, por ejemplo:</p>
+<blockquote class="blockquote">
+<ul>
+<li>Crear tarea -&gt; 3</li>
+<li>Completar tarea -&gt; 2</li>
+<li>Editar tarea -&gt; 3</li>
+<li>Asignar prioridad -&gt; 2</li>
+</ul>
+</blockquote>
+<p><strong>Total 10 SP</strong>… Tendremos que decidir si es un Sprint razonable</p>
 </section>
-<section id="paso-6.-elaborar-el-documento-de-decisión" class="level2">
-<h2 class="anchored" data-anchor-id="paso-6.-elaborar-el-documento-de-decisión">Paso 6. Elaborar el documento de decisión</h2>
-<p>Elaboraremos <code>decision-metodologica.md</code> con la siguiente plantilla:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode txt code-with-copy"><code class="sourceCode default"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>proyecto-lifeos/</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>│</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>├── README.md</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>│</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>└── docs/</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    ├── briefing.md</span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    ├── viabilidad.md</span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    ├── incertidumbres.md</span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    ├── requisitos.md</span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    └── decision-metodologica.md</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>En este documento indicaremos lo que hemos ido rellenando en los apartados anteriores y <strong>finalmente la decisión que más se ajusta al proyecto que tenemos entre manos y por qué</strong></p>
+<section id="descomponemos-las-historias-en-subtareas-y-estimamos-cada-subtarea-en-horas-aprox" class="level3">
+<h3 class="anchored" data-anchor-id="descomponemos-las-historias-en-subtareas-y-estimamos-cada-subtarea-en-horas-aprox">Descomponemos las historias en subtareas y estimamos cada subtarea en horas aprox</h3>
+<p>Por ejemplo, para US-01-Crear tarea - 3 SP</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Tarea</th>
+<th style="text-align: right;">Estimación</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Diseñar formulario</td>
+<td style="text-align: right;">1 h</td>
+</tr>
+<tr class="even">
+<td>Implementar captura de datos</td>
+<td style="text-align: right;">2 h</td>
+</tr>
+<tr class="odd">
+<td>Crear objeto/modelo de tarea</td>
+<td style="text-align: right;">1 h</td>
+</tr>
+<tr class="even">
+<td>Añadir tarea al listado</td>
+<td style="text-align: right;">2 h</td>
+</tr>
+<tr class="odd">
+<td>Validar formulario</td>
+<td style="text-align: right;">1 h</td>
+</tr>
+<tr class="even">
+<td>Probar funcionalidad</td>
+<td style="text-align: right;">1 h</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Total estimado; 8 horas</strong></p>
+<blockquote class="blockquote">
+<p>Historias -&gt; Story Points Tareas -&gt; estimación temporal</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Una historia de 3SP no tiene por qué tardar exactamente lo mismo que otra historia de 3SP</p>
+</blockquote>
+<p>En función de la carga temporal vamos llenando el sprint.</p>
+<blockquote class="blockquote">
+<p>No debemos llenar el sprint al 100% por imprevistos</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>La velocidad del equipo se calcula al final del sprint mediante los puntos de historia que se alcanzan</p>
+</blockquote>
+<p>##&nbsp;Entregable</p>
+<p>Github Project con el primer sprint ordenado, planificado, estimado y detallado en subtareas, indicando los puntos de historia en cada historia de usuario y estimando para cada subtarea las horas necesarias.</p>
 
 
 </section>

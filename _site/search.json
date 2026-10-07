@@ -839,7 +839,7 @@
     "text": "Sois el equipo de desarrollo de LifeOS. Ya conocéis el problema, habéis definido las primeras necesidades y tenéis un backlog inicial. Antes de comenzar a desarrollar, debéis decidir cómo vais a organizar vuestro trabajo.\n\n\n\nTenemos las distintas opciones planteadas:\n\nEnfoque tradicional\nEnfoque ágil:\n\nScrum\nKanban\nScrumban\n\n\n\nLas metodologías son herramientas… no religiones\n\n\n\n\n\n\n\nPregunta\nRespuesta\n\n\n\n\n¿Tenemos todos los requisitos definidos?\n\n\n\n¿Es probable que aparezcan nuevos requisitos?\n\n\n\n¿El producto se puede dividir en incrementos?\n\n\n\n¿Podemos obtener feedback frecuente?\n\n\n\n¿Trabajamos en equipo?\n\n\n\n¿Tenemos un plazo definido?\n\n\n\n¿Cuánto tiempo tenemos disponible?\n\n\n\n¿Existen dependencias importantes?\n\n\n\n¿Necesitamos mostrar avances periódicamente?\n\n\n\n¿Esperamos cambios durante el desarrollo?\n\n\n\n\n\nQué implicación tiene esto para nuestra forma de trabajar\n\nPor ejemplo:\n\n\n\n\n\n\n\nSituación\nConsecuencia\n\n\n\n\nNo conocemos todos los requisitos\nNecesitamos capacidad de adaptación\n\n\nTenemos 4 semanas\nNecesitamos priorizar\n\n\nTrabajamos en equipo\nNecesitamos visibilidad del trabajo\n\n\nEl producto puede crecer\nNecesitamos dividir el trabajo\n\n\nNecesitamos entregar un MVP (mínimo producto viable)\nNecesitamos priorizar\n\n\n\n\n\n\nAhora debemos establecer qué características debe tener la metodología que van a elegir\n\nAdaptación a cambios.\nFacilidad para priorizar.\nVisibilidad del trabajo.\nAdecuación al trabajo en equipo.\nFacilidad para hacer entregas incrementales.\nFacilidad para recibir feedback.\nCoste organizativo.\nAdecuación al tamaño del proyecto.\nFacilidad para utilizarla con GitHub.\n\n\nQué criterios son realmente importantes para nuestro proyecto\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCriterio\nImportancia\nPredictivo\nScrum\nKanban\nHíbrido\n\n\n\n\nAdaptación a cambios\nAlta\n\n\n\n\n\n\nTrabajo en equipo\nAlta\n\n\n\n\n\n\nEntregas incrementales\nAlta\n\n\n\n\n\n\nFacilidad de planificación\nMedia\n\n\n\n\n\n\nSimplicidad\nMedia\n\n\n\n\n\n\nFeedback frecuente\nAlta\n\n\n\n\n\n\n\n\nPuntuamos del 1 al 5, justificando las puntuaciones\n\n\n\n\nUna vez hecha la matriz de decisión, podemos pedir a la IA que nos ayude:\nActúa como consultor de gestión de proyectos de software.\n\nNuestro proyecto es LifeOS, una aplicación web para gestionar tareas y objetivos personales.\n\nEstas son las características de nuestro proyecto:\n\n[PEGAR ANÁLISIS]\n\nEstos son los criterios que hemos considerado importantes:\n\n[PEGAR CRITERIOS]\n\nY esta es nuestra matriz de decisión:\n\n[PEGAR MATRIZ]\n\nAnaliza nuestra decisión metodológica.\n\n1. Señala si alguno de nuestros criterios parece poco relevante.\n2. Detecta puntuaciones que parezcan poco justificadas.\n3. Identifica posibles contradicciones.\n4. Señala aspectos del proyecto que no hayamos tenido en cuenta.\n5. Explica qué consecuencias tendría elegir cada alternativa.\n\nNo elijas la metodología por nosotros.\nNo modifiques nuestra matriz directamente.\nQueremos utilizar tu análisis para revisar nuestra decisión.\n\n\n\nElaboraremos decision-metodologica.md con la siguiente plantilla:\nproyecto-lifeos/\n│\n├── README.md\n│\n└── docs/\n    ├── briefing.md\n    ├── viabilidad.md\n    ├── incertidumbres.md\n    ├── requisitos.md\n    └── decision-metodologica.md\nEn este documento indicaremos lo que hemos ido rellenando en los apartados anteriores y finalmente la decisión que más se ajusta al proyecto que tenemos entre manos y por qué",
     "crumbs": [
       "🧪 Laboratorios",
-      "UD1 · Lab 3 · Elegimos nuestra metodología"
+      "UD1 · Lab 3 · Elejimos nuestra metodología"
     ]
   },
   {
@@ -850,7 +850,7 @@
     "text": "Tenemos las distintas opciones planteadas:\n\nEnfoque tradicional\nEnfoque ágil:\n\nScrum\nKanban\nScrumban\n\n\n\nLas metodologías son herramientas… no religiones",
     "crumbs": [
       "🧪 Laboratorios",
-      "UD1 · Lab 3 · Elegimos nuestra metodología"
+      "UD1 · Lab 3 · Elejimos nuestra metodología"
     ]
   },
   {
@@ -861,7 +861,7 @@
     "text": "Pregunta\nRespuesta\n\n\n\n\n¿Tenemos todos los requisitos definidos?\n\n\n\n¿Es probable que aparezcan nuevos requisitos?\n\n\n\n¿El producto se puede dividir en incrementos?\n\n\n\n¿Podemos obtener feedback frecuente?\n\n\n\n¿Trabajamos en equipo?\n\n\n\n¿Tenemos un plazo definido?\n\n\n\n¿Cuánto tiempo tenemos disponible?\n\n\n\n¿Existen dependencias importantes?\n\n\n\n¿Necesitamos mostrar avances periódicamente?\n\n\n\n¿Esperamos cambios durante el desarrollo?\n\n\n\n\n\nQué implicación tiene esto para nuestra forma de trabajar\n\nPor ejemplo:\n\n\n\n\n\n\n\nSituación\nConsecuencia\n\n\n\n\nNo conocemos todos los requisitos\nNecesitamos capacidad de adaptación\n\n\nTenemos 4 semanas\nNecesitamos priorizar\n\n\nTrabajamos en equipo\nNecesitamos visibilidad del trabajo\n\n\nEl producto puede crecer\nNecesitamos dividir el trabajo\n\n\nNecesitamos entregar un MVP (mínimo producto viable)\nNecesitamos priorizar",
     "crumbs": [
       "🧪 Laboratorios",
-      "UD1 · Lab 3 · Elegimos nuestra metodología"
+      "UD1 · Lab 3 · Elejimos nuestra metodología"
     ]
   },
   {
@@ -872,7 +872,7 @@
     "text": "Ahora debemos establecer qué características debe tener la metodología que van a elegir\n\nAdaptación a cambios.\nFacilidad para priorizar.\nVisibilidad del trabajo.\nAdecuación al trabajo en equipo.\nFacilidad para hacer entregas incrementales.\nFacilidad para recibir feedback.\nCoste organizativo.\nAdecuación al tamaño del proyecto.\nFacilidad para utilizarla con GitHub.\n\n\nQué criterios son realmente importantes para nuestro proyecto",
     "crumbs": [
       "🧪 Laboratorios",
-      "UD1 · Lab 3 · Elegimos nuestra metodología"
+      "UD1 · Lab 3 · Elejimos nuestra metodología"
     ]
   },
   {
@@ -883,7 +883,7 @@
     "text": "Criterio\nImportancia\nPredictivo\nScrum\nKanban\nHíbrido\n\n\n\n\nAdaptación a cambios\nAlta\n\n\n\n\n\n\nTrabajo en equipo\nAlta\n\n\n\n\n\n\nEntregas incrementales\nAlta\n\n\n\n\n\n\nFacilidad de planificación\nMedia\n\n\n\n\n\n\nSimplicidad\nMedia\n\n\n\n\n\n\nFeedback frecuente\nAlta\n\n\n\n\n\n\n\n\nPuntuamos del 1 al 5, justificando las puntuaciones",
     "crumbs": [
       "🧪 Laboratorios",
-      "UD1 · Lab 3 · Elegimos nuestra metodología"
+      "UD1 · Lab 3 · Elejimos nuestra metodología"
     ]
   },
   {
@@ -894,7 +894,7 @@
     "text": "Una vez hecha la matriz de decisión, podemos pedir a la IA que nos ayude:\nActúa como consultor de gestión de proyectos de software.\n\nNuestro proyecto es LifeOS, una aplicación web para gestionar tareas y objetivos personales.\n\nEstas son las características de nuestro proyecto:\n\n[PEGAR ANÁLISIS]\n\nEstos son los criterios que hemos considerado importantes:\n\n[PEGAR CRITERIOS]\n\nY esta es nuestra matriz de decisión:\n\n[PEGAR MATRIZ]\n\nAnaliza nuestra decisión metodológica.\n\n1. Señala si alguno de nuestros criterios parece poco relevante.\n2. Detecta puntuaciones que parezcan poco justificadas.\n3. Identifica posibles contradicciones.\n4. Señala aspectos del proyecto que no hayamos tenido en cuenta.\n5. Explica qué consecuencias tendría elegir cada alternativa.\n\nNo elijas la metodología por nosotros.\nNo modifiques nuestra matriz directamente.\nQueremos utilizar tu análisis para revisar nuestra decisión.",
     "crumbs": [
       "🧪 Laboratorios",
-      "UD1 · Lab 3 · Elegimos nuestra metodología"
+      "UD1 · Lab 3 · Elejimos nuestra metodología"
     ]
   },
   {
@@ -905,7 +905,29 @@
     "text": "Elaboraremos decision-metodologica.md con la siguiente plantilla:\nproyecto-lifeos/\n│\n├── README.md\n│\n└── docs/\n    ├── briefing.md\n    ├── viabilidad.md\n    ├── incertidumbres.md\n    ├── requisitos.md\n    └── decision-metodologica.md\nEn este documento indicaremos lo que hemos ido rellenando en los apartados anteriores y finalmente la decisión que más se ajusta al proyecto que tenemos entre manos y por qué",
     "crumbs": [
       "🧪 Laboratorios",
-      "UD1 · Lab 3 · Elegimos nuestra metodología"
+      "UD1 · Lab 3 · Elejimos nuestra metodología"
+    ]
+  },
+  {
+    "objectID": "laboratorios/ud1/lab4.html",
+    "href": "laboratorios/ud1/lab4.html",
+    "title": "UD1 · Lab 4 · SCRUM en acción",
+    "section": "",
+    "text": "El equipo de LifeOS ya dispone de un conjunto inicial de historias de usuario y ha decidido cómo organizar su trabajo.\nAhora debe afrontar su primer Sprint.\nVuestro objetivo no es aprenderse Scrum, sino expermientar cómo se organiza un equipo que trabaja con Scrum y tomar decisiones como un equipo profesional de desarrollo\nNOTA: Si has elegido otra metodología para el primer desafío, adaptaremos este laboratorio a dicha metodología\n\n\n\nProduct Owner\nSe encarga de:\n\nRepresentar las necesidades del producto\nOrdenar el product backlog\nDecidir qué aporta más valor\nAclarar dudas sobre las historias\nDecidir qué debe abordarse primero (prioridades)\n\n\nProduct Owner no significa jefe de equipo\n\nScrum Master\nSe encarga de:\n\nAyudar a que Scrum se utilice correctamente\nFacilitar las reuniones\nDetectar impedimentos\nAyudar al equipo a mejorar su forma de trabajar\nEvitar que el equipo se bloquee por problemas organizativos\n\n\nTampoco es el jefe de equipo\n\nDevelopers\nSon las personas responsables de construir el incremento.\nDeciden:\n\nCómo realizar el trabajo\nCómo dividir las historias\nQué tareas necesitan\nCómo organizarse\nCuánto trabajo pueden asumir\n\n\n¿Quién decide cuántas historias entran en el Sprint?",
+    "crumbs": [
+      "🧪 Laboratorios",
+      "UD1 · Lab 4 · Scrum en acción"
+    ]
+  },
+  {
+    "objectID": "laboratorios/ud1/lab4.html#fase-1.-formamos-el-equipo-scrum",
+    "href": "laboratorios/ud1/lab4.html#fase-1.-formamos-el-equipo-scrum",
+    "title": "UD1 · Lab 4 · SCRUM en acción",
+    "section": "",
+    "text": "Product Owner\nSe encarga de:\n\nRepresentar las necesidades del producto\nOrdenar el product backlog\nDecidir qué aporta más valor\nAclarar dudas sobre las historias\nDecidir qué debe abordarse primero (prioridades)\n\n\nProduct Owner no significa jefe de equipo\n\nScrum Master\nSe encarga de:\n\nAyudar a que Scrum se utilice correctamente\nFacilitar las reuniones\nDetectar impedimentos\nAyudar al equipo a mejorar su forma de trabajar\nEvitar que el equipo se bloquee por problemas organizativos\n\n\nTampoco es el jefe de equipo\n\nDevelopers\nSon las personas responsables de construir el incremento.\nDeciden:\n\nCómo realizar el trabajo\nCómo dividir las historias\nQué tareas necesitan\nCómo organizarse\nCuánto trabajo pueden asumir\n\n\n¿Quién decide cuántas historias entran en el Sprint?",
+    "crumbs": [
+      "🧪 Laboratorios",
+      "UD1 · Lab 4 · Scrum en acción"
     ]
   }
 ]

@@ -1,0 +1,224 @@
+---
+title: "UD1 · Lab 4 · SCRUM en acción"
+---
+
+# 🧪 Situación
+
+>El equipo de LifeOS ya dispone de un conjunto inicial de historias de usuario y ha decidido cómo organizar su trabajo.
+>
+>Ahora debe afrontar su primer Sprint.
+>
+>Vuestro objetivo no es aprenderse Scrum, sino **expermientar cómo se organiza un equipo que trabaja con Scrum y tomar decisiones como un equipo profesional de desarrollo**
+>
+>**NOTA: Si has elegido otra metodología para el primer desafío, adaptaremos este laboratorio a dicha metodología**
+
+## Fase 1. Formamos el equipo Scrum
+
+**Product Owner**
+
+Se encarga de:
+
+- Representar las necesidades del producto
+- Ordenar el product backlog
+- Decidir qué aporta más valor
+- Aclarar dudas sobre las historias
+- Decidir qué debe abordarse primero (prioridades)
+
+>Product Owner no significa *jefe de equipo*
+
+**Scrum Master**
+
+Se encarga de:
+
+- Ayudar a que Scrum se utilice correctamente
+- Facilitar las reuniones
+- Detectar impedimentos
+- Ayudar al equipo a mejorar su forma de trabajar
+- Evitar que el equipo se bloquee por problemas organizativos
+
+>Tampoco es el *jefe de equipo*
+
+**Developers**
+
+Son las personas responsables de construir el **incremento**.
+
+Deciden:
+
+- Cómo realizar el trabajo
+- Cómo dividir las historias
+- Qué tareas necesitan
+- Cómo organizarse
+- Cuánto trabajo pueden asumir
+
+>**¿Quién decide cuántas historias entran en el Sprint?**
+
+# Fase 2. Partimos del Product Backlog
+
+Utilizamos las historias creadas en el laboratorio correspondiente.
+
+El Product Owner tendrá que ordenarlo y para ello debe preguntarse:
+
+- ¿Qué necesita primero el usuario?
+- ¿Qué funcionalidad aporta más valor?
+- ¿Hay funcionalidades que dependan de otras?
+- ¿Qué nos permite obtener antes un producto usable?
+- ¿Qué historias deberían formar parte del MVP?
+
+# Fase 3. Definimos el Sprint Goal
+
+El equipo **no empieza seleccionando historias al azar**
+
+>**Objetivo ->** ¿Qué queremos conseguir con este Sprint?
+
+Por ejemplo: **Sprint Goal**: permitir que un usuario pueda gestionar sus tareas básicas en LifeOS.
+
+A partir de este objetivo podrían entrar:
+
+- Crear tarea
+- Editar tarea
+- Marcar tarea como completada
+- Asignar prioridad
+
+# Fase 4. Construimos el Sprint Backlog
+
+Ahora los developers seleccionan las historias que consideran viables y las descomponen
+
+Por ejemplo:
+
+**US-01-Crear una tarea**
+
+Podría tener subtareas como:
+
+- Diseñar formulario
+- Validar formulario
+- Crear objeto `Tarea`
+- Implementar creación
+- Mostrar tarea en el listado
+- Probar creación
+- Revisar criterios de aceptación...
+
+En Github Projects vamos a establecer los siguientes paneles:
+
+**Backlog**: Todas las historias de usuario
+**To Do**: Historias de usuario ya priorizadas y ordenadas para el Sprint, analizadas y definidas sus subtareas.
+**In Progress**: Tareas en Progreso
+**Review**: Tareas en revisión
+**Done Sprint X**: Tareas que se han finalizado en el sprint correspondiente
+
+# Fase 5. Definición of Done
+
+> ¿Cuándo podemos afirmar que una historia está realmente terminada?
+
+Cada equiipo crea su propia **Definition of Done**.
+
+Por ejemplo:
+
+Una historia se puede considerar Done cuando:
+
+- Cumple todos los criterios de aceptación
+- Está implementada
+- Está probada
+- No existen errores conocidos que impidan su uso
+- El código está integrado en el repositorio
+- Ha sido revisada por otro miembro del equipo
+- La documentación necesaria está actualizada
+
+>Definition of Done != Hemos terminado de programar
+
+# Fase 6. Estimamos las historias
+
+Vamos a introducir **Story Points**
+
+Los puntos representan **esfuerzo relativo**, teniendo en cuenta:
+
+- Complejidad
+- Cantidad de trabajo
+- Incertidumbre
+- Dependencias
+
+Podemos hacer algo parecido a esto:
+
+| Historia                     | Estimación |
+| ---------------------------- | ---------: |
+| Crear tarea                  |       3 SP |
+| Marcar tarea como completada |       2 SP |
+| Editar tarea                 |       3 SP |
+| Asignar prioridad            |       2 SP |
+| Crear objetivo               |       5 SP |
+| Asociar tarea a objetivo     |       5 SP |
+| Filtrar tareas               |       3 SP |
+| Visualizar progreso          |       8 SP |
+
+
+Si se trabaja en grupo, se puede establecer una **Planning Poker**, cada developer estima individualmente y luego comparan:
+
+>Ana: 3
+>Luis: 5
+>Marta: 3
+
+Tienen que **justificar su puntuaciñon**
+
+### ¿Cuánto trabajo puede asumir el equipo?
+
+Aquí aparece la **capacidad**
+
+Supongamos que:
+
+- Sprint: 1 semana
+- 3 developers
+- Cada developer dispone aprox de 20 horas para el proyecto.
+- Capacidad teórica: 60horas
+
+No significa que puedan dedicar 60 horas exclusivamente a desarrollar porque hay reuniones, incidencias, revisiones...
+
+Podemos estimar una **capacidad efectiva**, por ejemplo: **60h x 80% = 48 horas**
+
+>Capacidad en horas != Story Points
+
+Los puntos son relativos y para el primer sprint no se conoce aún la **velocidad del equipo**
+
+### Entonces, ¿Cuánto metemos en el sprint?
+
+Teniendo en cuenta que tenemos el Backlog ordenado y vamos puntuando las historias que permiten conseguir nuestro **Sprint Goal**, por ejemplo:
+
+>- Crear tarea -> 3
+>- Completar tarea -> 2
+>- Editar tarea -> 3
+>- Asignar prioridad -> 2
+
+**Total 10 SP**... Tendremos que decidir si es un Sprint razonable
+
+
+### Descomponemos las historias en subtareas y estimamos cada subtarea en horas aprox
+
+Por ejemplo, para US-01-Crear tarea - 3 SP
+
+| Tarea                        | Estimación |
+| ---------------------------- | ---------: |
+| Diseñar formulario           |        1 h |
+| Implementar captura de datos |        2 h |
+| Crear objeto/modelo de tarea |        1 h |
+| Añadir tarea al listado      |        2 h |
+| Validar formulario           |        1 h |
+| Probar funcionalidad         |        1 h |
+
+
+**Total estimado; 8 horas**
+
+> Historias -> Story Points
+> Tareas -> estimación temporal
+
+> Una historia de 3SP no tiene por qué tardar exactamente lo mismo que otra historia de 3SP
+
+
+En función de la carga temporal vamos llenando el sprint. 
+
+>No debemos llenar el sprint al 100% por imprevistos
+
+> La velocidad del equipo se calcula al final del sprint mediante los puntos de historia que se alcanzan
+
+
+## Entregable
+
+Github Project con el primer sprint ordenado, planificado, estimado y detallado en subtareas, indicando los puntos de historia en cada historia de usuario y estimando para cada subtarea las horas necesarias.
+
